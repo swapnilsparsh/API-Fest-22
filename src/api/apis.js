@@ -1,25 +1,8 @@
-import { useState } from 'react'
+// import { useEffect, useState } from "react";
+// import Cards from "../cards/Cards";
 
+// const Api = () => {
+//   return <div></div>;
+// };
 
-const Api = () => {
-
-    const[check,useCheck]= useState([])
-
-    fetch("https://community-info-api.herokuapp.com/posts")
-    .then( (response) => {
-        return response.json();
-    }).then((data) => {
-        // console.log(data);
-        let check = data.results;
-        console.log(check);
-    })
-
-return(
-    <div>
-        he
-    </div>
-)
-}
-
-export default Api;
-
+// export default Api;
