@@ -2,7 +2,6 @@ import React from 'react';
 import '../styling/Header.css';
 import dribble from '../images/dribble.png';
 import side from '../images/Header-lower.png';
-import 'font-awesome/css/font-awesome.min.css';
 import TiltPhaseSix from './TiltPhase';
 
 const Header = () => {
