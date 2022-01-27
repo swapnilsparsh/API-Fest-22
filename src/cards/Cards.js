@@ -32,7 +32,7 @@ const Cards = () => {
         return response.json();
       })
       .then((data) => {
-        let check = data.result;
+        let check = data;
         setReceive(check);
       });
   };
@@ -45,9 +45,9 @@ const Cards = () => {
   return (
     <div className="container-fluid d-flex justify-content-center">
       <div className="col-mod-4">
-        {receive.map((data) => {
-          <div>{console.log(data.info)}</div>;
-        })}
+        {receive.map((data) => (
+          <div>{console.log(data.info)}</div>
+        ))}
       </div>
     </div>
   );
