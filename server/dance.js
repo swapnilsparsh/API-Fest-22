@@ -6,66 +6,66 @@ module.exports = [{
 "rating": "3"
 },
 {
-"img": "",
-"title": "Chronicles",
-"info": "The Chronicles is another writing forum, this time focusing specifically on science fiction and fantasy genres.",
+"img": "https://www.idta.co.uk/site3/wp-content/uploads/2015/02/become_a_member_why_teach-460x300.jpg",
+"title": "International Dance Teachers Association",
+"info": "Training the next generation of passionate and expert dance teachers and their students",
 "link": "https://www.sffchronicles.com/",
 "rating": "2"
 },
 {
-"img": "",
-"title": "Delhi Poetry Slam",
-"info": "A club that not only provides you with a platform to pursue your passion, but also to develop it more professionally, what’s not to love about Delhi Poetry Slam!",
-"link": "https://www.facebook.com/delhipoetryslam",
+"img": "https://cdmt.org.uk/templates/rt_koleti/custom/images/banners/Performers%20College%20(%20-%20).jpg",
+"title": "CDMT",
+"info": "CDMT ensures the provision of high quality professional training through Accreditation of full-time dance, drama and musical theatre schools",
+"link": "https://cdmt.org.uk/",
 "rating": "3"
 },
 {
-"img": "",
-"title": "Poetry Couture",
-"info": "Poetry Couture is a not-for-profit literary initiative with the objective of reviving the poetry reading culture and foster poetry as a performing art for the youth and poetry lovers alike.",
-"link": "https://www.facebook.com/poetcouture/",
+"img": "https://cid-world.org/wp-content/uploads/2019/12/fa50c007.png",
+"title": "The International Dance Council  CID",
+"info": "CID as an umbrella organization evolves on a different level from its members. It is not connected to any particular dance school, company, federation or other institution.",
+"link": "https://cid-world.org/",
 "rating": "2"
 },
 {
-"img": "",
-"title": "Poets Corner",
-"info": "Poets' Corner group comprises lots of creative and talented poets, rhapsodists and rhymesters, with an urge to stand out in the world of words with their poetry.",
-"link": "https://www.facebook.com/groups/poetscorner01/",
+"img": "https://www.ndeo.org/portals/ndeo/images/Homepage/ndeo3.jpg",
+"title": "National Dance Education Organization",
+"info": "The National Dance Education Organization envisions a nation that affords every citizen equal access and opportunity to quality dance arts education regardless of gender, age, race or culture, socio-economic status, ability or interest.",
+"link": "https://www.ndeo.org/",
 "rating": "2"
 },
 {
-"img": "",
-"title": "Delhi Poetree",
-"info": "Delhi Poetree is a community thats being run in a business-like fashion to promote poetry all across Delhi & NCR.",
-"link": "https://www.facebook.com/groups/delhipoetree/",
+"img": "https://dancewave.online/wp-content/uploads/2021/05/cropped-dw_bg-1.png",
+"title": "Dance Wave",
+"info": "Dance Wave is an internet Radio station specialising in Dance category mainly Dance, House, Deep House, Trance and more electronic music.",
+"link": "https://dancewave.online/",
 "rating": "2"
 },
 {
 "img": "https://cdn.filestackcontent.com/RHJzJuTZQkSwIyQZO226",
-"title": "TheNextBigWriter",
-"info": "TheNextBigWriter, launched in 2005, combines a dynamic community of thousands of writers with cutting-edge tools, contests, classes, and communication to help members achieve their writing goals.",
-"link": "https://www.thenextbigwriter.com/",
+"title": "Dance squad",
+"info" : "We are a passionate society where 'Every Day is Dance Day!,We hold weekly classes in Hip Hop, Contemporary, Jazz, and Commercial.",
+"link": "https://www.uea.su/opportunities/club/6931/",
 "rating": "2"
 },
 {
-"img": "",
-"title": "Agent query",
-"info": "AgentQuery is a great place to go for critiques and feedback.",
-"link": "https://agentquery.com/default.aspx",
+"img": "https://bbo.dance/images/Marketing_images/Dance_Awards_Challenge.jpg",
+"title": "BBO",
+"info": "bbodance is an international dance awarding organisation previously known as the British Ballet Organization (BBO).",
+"link": "https://bbo.dance/",
 "rating": "2"
 },
 {
-"img": "",
-"title": "Underlined",
-"info": "Welcome to our community of Book Nerds and aspiring writers! ",
-"link": "https://www.getunderlined.com/community/",
+"img": "https://www.onedanceuk.org/wp-content/uploads/2019/10/one-dance-uk-team-web.jpg",
+"title": "One Dance UK ",
+"info": "One Dance UK is the sector support organisation leading the way to a stronger, more vibrant and diverse dance sector.",
+"link": "https://www.onedanceuk.org/",
 "rating": "2"
 },
 {
-"img": "",
-"title": "NaNoWriMo",
-"info": "NaNoWriMo believes in the transformational power of creativity. ",
-"link": "https://nanowrimo.org/",
+"img": "https://www.istd.org/public/panel_widgets/equity-diversity-inclusion.jpg",
+"title": "Imperial Society of Teachers of Dancing",
+"info": "The Society is one of the world's leading dance examination boards with the widest range of dance genres available.  ",
+"link": "https://www.istd.org/home/",
 "rating": "2"
 },
 ]
