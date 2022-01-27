@@ -4,6 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3233;
 const posts = require('./posts')
 const marketing= require('./marketing')
+const health=require('./health')
 
 app.get('/posts', (req, res) => {
     res.set('Access-Control-Allow-Origin', '*');
@@ -13,6 +14,11 @@ app.get('/posts', (req, res) => {
 app.get('/posts/marketing', (req, res) => {
     res.set('Access-Control-Allow-Origin', '*');
     res.json(marketing)
+})
+
+app.get('/posts/health', (req, res) => {
+    res.set('Access-Control-Allow-Origin', '*');
+    res.json(health)
 })
 
 app.get('/', (req, res) => {
