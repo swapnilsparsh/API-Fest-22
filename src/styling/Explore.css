@@ -3,7 +3,7 @@
     width: fit-content;
     text-align:center;
     margin-left: 30%;
-    margin-top: 20%;
+    margin-top: 280px;
 }
 
 .explore-tunein{
@@ -68,4 +68,82 @@
 
 .explore-img:hover img{
   transform: scale(1.3);
+}
+
+@media only screen and (max-width:1180px)
+{
+    .explore-heading{
+        font-size:2rem;
+        margin-top: 295px;
+    }
+}
+
+@media only screen and (max-width:950px)
+{
+    .explore-heading{
+        font-size:1.5rem;
+        margin-top: 325px;
+        margin-left: 35%;
+    }
+
+    .explore-img1,.explore-img2,.explore-img3,.explore-img4,.explore-img5,.explore-img6,.explore-img7,.explore-img8{
+        width: 125px;
+    }
+
+    .explore-img2,.explore-img4
+    {
+        margin-top: -300px;
+    }
+
+    .explore-img3
+    {
+            margin-top: -400px;
+    }
+}
+
+@media only screen and (max-width:800px)
+{
+    .explore-img1,.explore-img2,.explore-img3,.explore-img4,.explore-img5,.explore-img6,.explore-img7,.explore-img8{
+        width: 100px;
+    }
+
+    .explore-heading{
+        margin-left: 29%;
+        margin-top:310px;
+    }
+
+    .explore-img2,.explore-img4
+    {
+        margin-top: -250px;
+    }
+
+    .explore-img3{
+        margin-top: -350px;
+    }
+
+    .explore-img6,.explore-img7
+    {
+        margin-top: -5px;
+    }
+
+    .explore-img8{
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width:680px){
+    .explore-heading{
+        font-size: 1rem;
+        margin-left:80px;
+    }
+
+    .explore{
+        text-align: center;
+    }
+
+    .explore-img1,.explore-img2,.explore-img3,.explore-img4,.explore-img5,.explore-img6,.explore-img7,.explore-img8{
+        position:relative;
+        margin:0;
+        margin-left: 5%;
+    }
 }
