@@ -16,14 +16,18 @@ const Explore = () => {
            WANNA EXPLORE MORE? <br />
             WHY NOT <a href="/po"><span className='explore-tunein'>TUNE IN</span></a>
        </p>
+       <div className='explore-cat'>
        <a className='explore-img' href=" "><img className="explore-img1" src={e} alt="" /></a>
        <a className='explore-img' href=" "><img className="explore-img2" src={crypto} alt="" /></a>
        <a className='explore-img' href=" "><img className="explore-img3" src={tech} alt="" /></a>
        <a className='explore-img' href=" "><img className="explore-img4" src={market} alt="" /></a>
+       </div>
+       <div className="explore-cat">
        <a className='explore-img' href=" "><img className="explore-img5" src={invest} alt="" /></a>
        <a className='explore-img' href=" "><img className="explore-img6" src={enter} alt="" /></a>
        <a className='explore-img' href=" "><img className="explore-img7" src={poetry} alt="" /></a>
        <a className='explore-img' href=" "><img className="explore-img8" src={health} alt="" /></a>
+       </div>
    </div>
   );
 };
