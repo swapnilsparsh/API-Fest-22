@@ -1,17 +1,18 @@
-import { useEffect } from 'react'
+import { useState } from 'react'
 
 
 const Api = () => {
-    const url ="https://community-info-api.herokuapp.com/posts";
 
-    useEffect(()=> {
-        fetch(url)
-        .then(response => response.json()).then(json => {
-            console.log("json", json)
-        }).catch(err =>{
-            console.log("error", err)
-        })
-},[])
+    const[check,useCheck]= useState([])
+
+    fetch("https://community-info-api.herokuapp.com/posts")
+    .then( (response) => {
+        return response.json();
+    }).then((data) => {
+        // console.log(data);
+        let check = data.results;
+        console.log(check);
+    })
 
 return(
     <div>
