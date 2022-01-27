@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+import '../styling/Header.css';
 import dribble from '../images/dribble.png';
 import side from '../images/Header-lower.png';
 import 'font-awesome/css/font-awesome.min.css';
@@ -36,7 +36,7 @@ const Header = () => {
                   </h4>
               </div>
               <div className="sign_in_up">
-                  <button className="dropbtn"><i class="fa fa-user-o fa-2x"></i></button>
+                  <button className="dropbtn"><i class="fa fa-user-o fa-2x" style={{background: "transparent"}}></i></button>
                   <div className="dropdown-content">
                       <a href="#">Log In</a>
                       <a href="#">Register</a>
