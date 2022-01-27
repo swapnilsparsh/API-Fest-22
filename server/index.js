@@ -3,7 +3,7 @@ const app = express();
 
 const PORT = process.env.PORT || 3233;
 const posts = require('./posts')
-const 
+const marketing= require('./marketing')
 
 app.get('/posts', (req, res) => {
     res.set('Access-Control-Allow-Origin', '*');
