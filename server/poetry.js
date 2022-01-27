@@ -1,15 +1,15 @@
 module.exports = [{
-"img": "https://res.cloudinary.com/practicaldev/image/fetch/s--RIBRi0-i--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/organization/profile_image/4449/3da2c231-55bb-44a4-8e66-45e793742e9d.jpg",
-"title": "Community Classroom",
-"info": "The organisation is founded by Kunal Kushwaha. This community provide hands-on training, mentorship for FREE and have an inclusive community.Here, one can get expert guidance with career, Open Source, and internships, jobs around the world.",
-"link": "https://www.commclassroom.org/",
-"rating": "4"
+"img": "https://blog.commaful.com/wp-content/uploads/2020/04/REVISION-COMMAFUL-LOGO-BLUE-COLOR-1024x317.png",
+"title": "Commaful",
+"info": "Access thousands of free stories in the largest library of multimedia stories around!",
+"link": "https://commaful.com/",
+"rating": "3"
 },
 {
-"img": "https://codeforcause.org/static/home/codeforcause.svg",
-"title": "Code for cause",
-"info": "An initiative to contribute to the Open Source community by providing training, guidance, and awareness about the possibilities in the field of software to students & professionals.",
-"link": "https://codeforcause.org/",
+"img": "",
+"title": "Chronicles",
+"info": "The Chronicles is another writing forum, this time focusing specifically on science fiction and fantasy genres.",
+"link": "https://www.sffchronicles.com/",
 "rating": "2"
 },
 {
@@ -108,5 +108,5 @@ module.exports = [{
 "info": "If you are a programmer who wants to get started with Business Coding, SAP Community Network is the right place for you! ",
 "link": "https://community.sap.com/",
 "rating": "2"
-}
-]
+}]
+
