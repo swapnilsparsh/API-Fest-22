@@ -2,7 +2,7 @@ module.exports = [{
 "id":"0",    
 "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--RIBRi0-i--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/organization/profile_image/4449/3da2c231-55bb-44a4-8e66-45e793742e9d.jpg",
 "title": "Community Classroom",
-"info": "The organisation is founded by Kunal Kushwaha. This community provide hands-on training, mentorship for FREE and have an inclusive community.Here, one can get expert guidance with career, Open Source, and internships, jobs around the world.",
+"info": "The organisation is founded by Kunal Kushwaha. This community provide hands-on training, information regarding  Open Source, and internships, jobs around the world.",
 "link": "https://www.commclassroom.org/",
 "rating": "4"
 },
@@ -16,7 +16,7 @@ module.exports = [{
 },
 {
 "id":"3",    
-"img": " ",
+"img": "",
 "title": "codedamn",
 "info": "Build projects, practice and learn to code from scratch - without leaving your browser.",
 "link": "https://codedamn.com/",
@@ -32,7 +32,7 @@ module.exports = [{
 {"id":"5",
 "img": "https://gssoc.girlscript.tech/images/favicon/favicon.png",
 "title": "Girl Script",
-"info":  "GirlScript is open for all organisation and supports beginners in technology and programming. It supports diversity by reserving 50% seats for women & IGBT in all it's programs worldwide.",
+"info":  "GirlScript is open for all organisation. It supports diversity by reserving 50% seats for women & IGBT in all it's programs worldwide.",
 "link": "https://www.girlscript.tech/home",
 "rating": "2"
 },
@@ -46,14 +46,14 @@ module.exports = [{
 {"id":"7",
 "img": "https://cdn.filestackcontent.com/RHJzJuTZQkSwIyQZO226",
 "title": "Women who code",
-"info": "A community focused on empowering women in technology, Women Who Code was established in 2011 and now has 230,000 members across 122 countries",
+"info": "A community focused on empowering women in technology, established in 2011 and now has 230,000 members across 122 countries",
 "link": "https://www.womenwhocode.com/",
 "rating": "2"
 },
 {"id":"8",
 "img": "https://img.etimg.com/photo/msid-64221161,quality-100/brandwire_image_45128030.jpg",
 "title": "TechGig",
-"info": "TechGig is a culmination of everything related to technology. TechGig is, a platform exclusively for IT professionals to synergize, share, exchange ideas, facts and information as well as showcase their work and express their views on the vast repertoire that the IT industry encompasses.",
+"info": "TechGig is a culmination of everything related to technology. TechGig is, a platform exclusively for IT professionals to synergize, share and exchange ideas.",
 "link": "https://www.techgig.com/",
 "rating": "2"
 },
@@ -95,14 +95,14 @@ module.exports = [{
 {"id":"14",
 "img": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/092014/coderwall.png?itok=QHsi4eck",
 "title": "Coderwall",
-"info": "Another diverse and varied group that spans the whole spectrum of web creation is Coderwall. To help solve problems or learn new things for both beginners as well as more seasoned coders, it has a detailed “Tips” section. ",
+"info": "Another diverse and varied group that spans the whole spectrum of web creation is Coderwall. ",
 "link": "https://coderwall.com/",
 "rating": "2"
 },
 {"id":"15",
 "img": "https://www.analyticsvidhya.com/wp-content/uploads/2015/06/kaggle-logo-transparent-300.png",
 "title": "Kaggle",
-"info": "Kaggle is an online community of data scientists and machine learning practitioners having over 19,000 public datasets and 200,000 open notebooks with a large repository of community published data and code. ",
+"info": "Kaggle is an online community of data scientists and machine learning practitioners having over 19,000 public datasets and 200,000 open notebooks.",
 "link": "https://www.kaggle.com/",
 "rating": "2"
 },
