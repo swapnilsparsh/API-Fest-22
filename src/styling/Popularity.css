@@ -1,0 +1,186 @@
+.bottom-info{
+    display: flex;
+} 
+
+.ticket{
+    width:40px;
+    height:25px;
+    margin-left: 90px;
+    padding-left: 10px;
+    border-left: 1px solid grey;
+}
+
+.pop-img{
+    width:268px;
+    height:200px;
+}
+
+.celeb:hover .arrow{
+    animation:Try 1s alternate ease-in-out infinite;
+}
+
+ .celeb{
+    position: relative;
+    width:268px;
+    border-radius: 8px;
+    height:387px;
+    background-color: rgba(17, 18, 41, 1);
+    display: flex;
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: 10px -10px rgba(48, 26, 104, 1);
+}
+
+.arrow{
+    margin-left:10px;
+    height: 15px;
+    margin-top: 3px;
+}
+
+@keyframes Try {
+    from{
+      transform: translateX(0%);
+  }
+  to{
+      transform: translateX(50%);
+    }
+  }
+
+.celeb::before{
+    content: '';
+    position:absolute;
+    top:2px;
+    Left:2px;
+    bottom:2px;
+    width:50%;
+    pointer-events: none;
+}
+
+ .celeb .cont .names{
+    position:relative;
+    font-size: 1.2em;
+    margin-top: 15px;
+    margin-left: 25px;
+    color: #fff;
+    z-index: 2;
+    opacity: 0.5;
+    font-weight: 300;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.info{
+    color: rgba(2, 89, 235, 1);
+    font-family: Nunito;
+    font-weight: 100;
+    margin-left: 25px;
+}
+
+.celeb:hover .cont p{
+opacity: 1;
+}
+
+.celeb .cont a{
+    display: inline-block;
+    padding: 1px 5px;
+    background: yellow;
+    color: rgba(104, 47, 38, 1);
+    text-decoration: none;
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-family: Nunito;
+}
+
+ .celeb span{
+    transition: 0.5;
+    opacity: 0;
+}
+
+ .celeb:hover span{
+    opacity: 1;
+}
+
+ .celeb span:nth-child(1)
+{
+    position: absolute;
+    top: 0;
+    Left: 0;
+    width: 100%;
+    height:3px;
+    background:linear-gradient(to right, transparent, #DD4CAC);
+    animation:animate1 2s linear infinite;
+}
+
+@keyframes animate1{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform:translateX( 100%)
+    }
+}
+
+ .celeb span:nth-child(2)
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3px;
+    height:100%;
+    background:linear-gradient(to bottom, transparent, #DD4CAC);
+    animation:animate2 2s linear infinite;
+    animation-delay:1s;
+}
+
+@keyframes animate2{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform:translateY( 100%)
+    }
+}
+
+ .celeb span:nth-child(3)
+{
+    position: absolute;
+    bottom:0;
+    Left: 0;
+    width: 100%;
+    height:3px;
+    background:linear-gradient(to left, transparent, #DD4CAC);
+    animation:animate3 2s linear infinite;
+}
+
+@keyframes animate3{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform:translateX(-100%)
+    }
+}
+
+ .celeb span:nth-child(4)
+{
+    position: absolute;
+    top: 0;
+    Left: 0;
+    width: 3px;
+    height:100%;
+    background:linear-gradient(to top, transparent, #DD4CAC);
+    animation:animate4 2s linear infinite;
+    animation-delay:1s;
+}
+
+@keyframes animate4{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform:translateY( -100%)
+    }
+};
