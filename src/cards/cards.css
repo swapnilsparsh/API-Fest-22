@@ -1,0 +1,9 @@
+.card-ch {
+  display: flex !important;
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
+.card-c {
+  margin: 20px;
+}
