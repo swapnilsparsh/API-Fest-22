@@ -4,8 +4,6 @@ import CommunityFilter from "./CommunityFIlter";
 import "./cards.css";
 
 const Cards = () => {
-  const [receive, setReceive] = useState([]);
-
   const [filteredName, setFilteredName] = useState("all");
   console.log(filteredName);
 
@@ -18,7 +16,7 @@ const Cards = () => {
   // console.log(receive);
   console.log(URL);
   console.log(filteredName, "Hello");
-
+  const [receive, setReceive] = useState([]);
   const fetchData = () => {
     console.log(URL);
     console.log(Math.random());
