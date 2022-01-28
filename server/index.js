@@ -9,6 +9,12 @@ const health=require('./health')
 const sing=require('./sing')
 const crypto = require('./crypto')
 const dance = require('./dance')
+const all=require('./all')
+
+app.get('/posts/all', (req,res) => {
+    res.set('Access-Control-Allow-Origin', '*');
+    res.json(all)
+})
 
 app.get('/posts', (req, res) => {
     res.set('Access-Control-Allow-Origin', '*');
