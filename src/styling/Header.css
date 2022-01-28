@@ -10,8 +10,9 @@
     background: transparent;
 }
 
-.nav{
-    display: flex;
+.nav-head{
+    display: flex !important;
+    flex-direction: row;
     justify-content: space-between;
     background: linear-gradient(90deg, #0e1f3d 0%, #0b2855 50%, #013a91a2 100%);
     border-radius: 30px;

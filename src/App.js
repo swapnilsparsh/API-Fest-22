@@ -4,7 +4,7 @@ import Explore from "./components/Explore";
 // import Popularites from './components/Popularites'
 // import Api from "./api/apis";
 import "./styling/App.css";
-import Header from "./components/Header.jsx";
+import Header from "./components/Header";
 import Cards from "./cards/Cards";
 const App = () => {
   return (

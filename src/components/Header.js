@@ -10,7 +10,7 @@ const Header = () => {
       <div className="header">
           <div className="appbar">
               <img src="" alt="LOGO" />
-              <div className="nav">
+              <div className="nav-head">
                   <h4 className="nav_points">
                       Home
                       <div className="dropdown-content">
