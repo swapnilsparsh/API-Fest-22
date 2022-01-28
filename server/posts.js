@@ -16,7 +16,8 @@ module.exports = [{
 },
 {
 "id":"3",    
-"img": "google.com ",
+"img": " ",
+"title": "codedamn",
 "info": "Build projects, practice and learn to code from scratch - without leaving your browser.",
 "link": "https://codedamn.com/",
 "rating": "3"
@@ -31,7 +32,7 @@ module.exports = [{
 {"id":"5",
 "img": "https://gssoc.girlscript.tech/images/favicon/favicon.png",
 "title": "Girl Script",
-"info": "GirlScript is a section-8 NON PROFIT company registered under the government of India on the 2nd of June, 2017. GirlScript is open for all organisation and supports beginners in technology and programming. It supports diversity by reserving 50% seats for women & IGBT in all it's programs worldwide.",
+"info":  "GirlScript is open for all organisation and supports beginners in technology and programming. It supports diversity by reserving 50% seats for women & IGBT in all it's programs worldwide.",
 "link": "https://www.girlscript.tech/home",
 "rating": "2"
 },
@@ -52,7 +53,7 @@ module.exports = [{
 {"id":"8",
 "img": "https://img.etimg.com/photo/msid-64221161,quality-100/brandwire_image_45128030.jpg",
 "title": "TechGig",
-"info": "TechGig is a culmination of everything related to technology. TechGig is, a platform exclusively for IT professionals to synergize, share, exchange ideas, facts and information as well as showcase their work and express their views on the vast repertoire that the IT industry encompasses. Garnering cutting-edge insights, jobs, reviews and news, as well as providing a platform for connecting with colleagues and peers are the mainstay of TechGig.",
+"info": "TechGig is a culmination of everything related to technology. TechGig is, a platform exclusively for IT professionals to synergize, share, exchange ideas, facts and information as well as showcase their work and express their views on the vast repertoire that the IT industry encompasses.",
 "link": "https://www.techgig.com/",
 "rating": "2"
 },

@@ -1,4 +1,5 @@
 module.exports = [{
+"id":"0", 
 "img": "https://blog.commaful.com/wp-content/uploads/2020/04/REVISION-COMMAFUL-LOGO-BLUE-COLOR-1024x317.png",
 "title": "Commaful",
 "info": "Access thousands of free stories in the largest library of multimedia stories around!",
@@ -6,6 +7,7 @@ module.exports = [{
 "rating": "3"
 },
 {
+"id":"1",
 "img": "",
 "title": "Chronicles",
 "info": "The Chronicles is another writing forum, this time focusing specifically on science fiction and fantasy genres.",
@@ -13,6 +15,7 @@ module.exports = [{
 "rating": "2"
 },
 {
+"id":"2",  
 "img": "",
 "title": "Delhi Poetry Slam",
 "info": "A club that not only provides you with a platform to pursue your passion, but also to develop it more professionally, what’s not to love about Delhi Poetry Slam!",
@@ -20,6 +23,7 @@ module.exports = [{
 "rating": "3"
 },
 {
+"id":"3",    
 "img": "",
 "title": "Poetry Couture",
 "info": "Poetry Couture is a not-for-profit literary initiative with the objective of reviving the poetry reading culture and foster poetry as a performing art for the youth and poetry lovers alike.",
@@ -27,6 +31,7 @@ module.exports = [{
 "rating": "2"
 },
 {
+ "id":"4",   
 "img": "",
 "title": "Poets Corner",
 "info": "Poets' Corner group comprises lots of creative and talented poets, rhapsodists and rhymesters, with an urge to stand out in the world of words with their poetry.",
@@ -34,6 +39,7 @@ module.exports = [{
 "rating": "2"
 },
 {
+"id":"5",   
 "img": "",
 "title": "Delhi Poetree",
 "info": "Delhi Poetree is a community thats being run in a business-like fashion to promote poetry all across Delhi & NCR.",
@@ -41,6 +47,7 @@ module.exports = [{
 "rating": "2"
 },
 {
+"id":"6",    
 "img": "https://cdn.filestackcontent.com/RHJzJuTZQkSwIyQZO226",
 "title": "TheNextBigWriter",
 "info": "TheNextBigWriter, launched in 2005, combines a dynamic community of thousands of writers with cutting-edge tools, contests, classes, and communication to help members achieve their writing goals.",
@@ -48,6 +55,7 @@ module.exports = [{
 "rating": "2"
 },
 {
+"id":"7",    
 "img": "",
 "title": "Agent query",
 "info": "AgentQuery is a great place to go for critiques and feedback.",
@@ -55,6 +63,7 @@ module.exports = [{
 "rating": "2"
 },
 {
+"id":"8",
 "img": "",
 "title": "Underlined",
 "info": "Welcome to our community of Book Nerds and aspiring writers! ",
@@ -62,6 +71,7 @@ module.exports = [{
 "rating": "2"
 },
 {
+ "id":"9",   
 "img": "",
 "title": "NaNoWriMo",
 "info": "NaNoWriMo believes in the transformational power of creativity. ",
