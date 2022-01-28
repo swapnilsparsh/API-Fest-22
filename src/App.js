@@ -6,7 +6,8 @@ import Explore from "./components/Explore";
 import "./styling/App.css";
 import Header from "./components/Header.jsx";
 import Cards from "./cards/Cards";
-import Blog from "./Blog";
+import Footer from "./components/Footer.jsx";
+import Blog from "./components/Blog";
 const App = () => {
   return (
     <div className="app">
@@ -14,6 +15,7 @@ const App = () => {
         <Route exact path="/ex" element={<Explore />} />
         {/* <Route exact path="/po" element={<Api />} /> */}
         <Route exact path="/header" element={<Header />} />
+        <Route exact path="/footer" element={<Footer />} />
         <Route exact path="/card" element={<Cards />} />
         <Route exact path="/blog" element={<Blog />}/>
       </Routes>
