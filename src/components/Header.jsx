@@ -1,8 +1,7 @@
 import React from 'react';
-import './Header.css';
+import '../styling/Header.css';
 import dribble from '../images/dribble.png';
 import side from '../images/Header-lower.png';
-import 'font-awesome/css/font-awesome.min.css';
 import TiltPhaseSix from './TiltPhase';
 
 const Header = () => {
@@ -15,31 +14,31 @@ const Header = () => {
                   <h4 className="nav_points">
                       Home
                       <div className="dropdown-content">
-                          <a href="#">Famous Communities</a>
-                          <a href="#">Popular Searches</a>
+                          <a href=" ">Famous Communities</a>
+                          <a href=" ">Popular Searches</a>
                       </div>
                   </h4>
                    <h4 className="nav_points">
                       Communities
                       <div className="dropdown-content">
-                          <a href="#">Tech</a>
-                          <a href="#">Commerce</a>
-                          <a href="#">Arts</a>
+                          <a href=" ">Tech</a>
+                          <a href=" ">Commerce</a>
+                          <a href=" ">Arts</a>
                       </div>
                   </h4>
                    <h4 className="nav_points">
                       ContactUs
                       <div className="dropdown-content">
-                          <a href="#">1</a>
-                          <a href="#">2</a>
+                          <a href=" ">1</a>
+                          <a href=" ">2</a>
                       </div>
                   </h4>
               </div>
               <div className="sign_in_up">
-                  <button className="dropbtn"><i class="fa fa-user-o fa-2x"></i></button>
+                  <button className="dropbtn"><i class="fa fa-user-o fa-2x" style={{background: "transparent"}}></i></button>
                   <div className="dropdown-content">
-                      <a href="#">Log In</a>
-                      <a href="#">Register</a>
+                      <a href=" ">Log In</a>
+                      <a href=" ">Register</a>
                   </div>
               </div>
           </div>
