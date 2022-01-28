@@ -18,7 +18,7 @@ module.exports = [{
 "id":"2",  
 "img": "https://scontent.fdel38-1.fna.fbcdn.net/v/t1.6435-9/50820506_2066801483395595_6687056370958598144_n.png?_nc_cat=104&ccb=1-5&_nc_sid=973b4a&_nc_ohc=vnWF3zKs2SEAX-V3IWk&_nc_ht=scontent.fdel38-1.fna&oh=00_AT99UuQ8ZRXKS-UtBFOimR-mDRQOzZn4YKjwgeN_FI-X1w&oe=6218F3FA",
 "title": "Delhi Poetry Slam",
-"info": "A club that not only provides you with a platform to pursue your passion, but also to develop it more professionally, what’s not to love about Delhi Poetry Slam!",
+"info": "A club that not only provides you with a platform to pursue your passion, but also to develop it more professionally",
 "link": "https://www.delhipoetryslam.com/",
 "rating": "3"
 },
@@ -26,7 +26,7 @@ module.exports = [{
 "id":"3",    
 "img": "https://scontent.fdel38-1.fna.fbcdn.net/v/t1.6435-9/54369282_2578891232153320_734552184867258368_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=NV6bH2D-EIsAX8lfc0Q&_nc_oc=AQkhyI8MiIG_8RuBYY20lS-15X0qrFckx403urWEWBavZXaM802fpeBP4YxM4c4zZTw&_nc_ht=scontent.fdel38-1.fna&oh=00_AT-T4oyj0J077hVtXTxnJBhWnMjBwsriaPrNgFGJTYAJFQ&oe=6217C791",
 "title": "Poetry Couture",
-"info": "Poetry Couture is a not-for-profit literary initiative with the objective of reviving the poetry reading culture and foster poetry as a performing art for the youth and poetry lovers alike.",
+"info": "Poetry Couture is a not-for-profit literary initiative with the objective of reviving the poetry reading culture.",
 "link": "https://www.facebook.com/poetcouture/",
 "rating": "2"
 },
@@ -34,7 +34,7 @@ module.exports = [{
  "id":"4",   
 "img": "https://scontent.fdel38-1.fna.fbcdn.net/v/t1.6435-9/121976457_108951920994380_3229862639967779461_n.png?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=OMkvlnnBuJkAX-tvOQE&_nc_ht=scontent.fdel38-1.fna&oh=00_AT8E27K1fFAA80Osbege0Nt9u_6_FU7O8ICdb8s96vvJ8A&oe=621B3C5E",
 "title": "Poets Corner",
-"info": "Poets' Corner group comprises lots of creative and talented poets, rhapsodists and rhymesters, with an urge to stand out in the world of words with their poetry.",
+"info": "Poets' Corner group comprises lots of creative and talented poets, rhapsodists and rhymesters.",
 "link": "https://www.thepoetscorner.org/",
 "rating": "2"
 },
@@ -50,7 +50,7 @@ module.exports = [{
 "id":"6",    
 "img": "https://www.thenextbigwriter.com/images/public/preditors_editors_badge.jpg",
 "title": "TheNextBigWriter",
-"info": "TheNextBigWriter, launched in 2005, combines a dynamic community of thousands of writers with cutting-edge tools, contests, classes, and communication to help members achieve their writing goals.",
+"info": "TheNextBigWriter, launched in 2005, combines a dynamic community of thousands of writers with cutting-edge tools, contests and  classes.",
 "link": "https://www.thenextbigwriter.com/",
 "rating": "2"
 },

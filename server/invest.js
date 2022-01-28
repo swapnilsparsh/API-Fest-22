@@ -42,7 +42,7 @@ module.exports = [{
 "id":"5",   
 "img": "https://play-lh.googleusercontent.com/o1CiIOLqrAkPdgMbZr9TRJ-MAdEjT7E_QdxS8I2Sex_hLufTIyTP3q_bMdYGgP3BgCjQ=w412-h732-rw",
 "title": "Seeking Alpha ",
-"info": "Seeking Alpha is the world’s largest investing community. Powered by the wisdom and diversity of crowdsourcing - millions of passionate investors connect daily to discover and share new investing ideas, discuss the latest news, debate the merits of stocks, and make informed investment decisions.",
+"info": "Seeking Alpha is the world’s largest investing community. Millions of passionate investors connect daily to discover and share new investing ideas.",
 "link": "https://seekingalpha.com/",
 "rating": "2"
 },
@@ -66,7 +66,7 @@ module.exports = [{
 "id":"8",
 "img": "https://investedwallet.com/wp-content/uploads/2020/05/morningstar-300x86.webp",
 "title": "Morningstar",
-"info": "Besides monitoring the stock market, top companies, and economic news — the media company provides overviews of various funds and stocks. It includes an overview, analysis, current prices, financials, and reviews by their analysts. ",
+"info": "Besides monitoring the stock market, top companies, and economic news — the media company provides overviews of various funds and stocks.",
 "link": "https://www.morningstar.com/",
 "rating": "2"
 },
@@ -74,7 +74,7 @@ module.exports = [{
  "id":"9",   
 "img": "https://investedwallet.com/wp-content/uploads/2019/03/marketwatch-300x89.webp",
 "title": "MarketWatch",
-"info": "It offers various market news and in-depth analysis. Like many of the others on this list, you will get the stock charts, strategies, latest information, watchlists, and insights for retirement. ",
+"info": "It offers various market news and in-depth analysis. Like many of the others on this list, you will get the stock charts, strategies.",
 "link": "https://www.marketwatch.com/",
 "rating": "2"
 },
