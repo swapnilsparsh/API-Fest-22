@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import StaticCardUI from "./StaticCardUI";
 import CommunityFilter from "./CommunityFIlter";
-import "./cards.css";
+import "../styling/Cards.css";
 
 const Cards = () => {
   const [filteredName, setFilteredName] = useState("all");
@@ -35,18 +35,12 @@ const Cards = () => {
   useEffect(() => {
     console.log("Inside usEffect");
     fetchData();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
     <div>
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-        crossorigin="anonymous"
-      />
-
-      <div className="card-ch">
+    <div className="card-ch">
         <CommunityFilter NameChangeFilter={filterChangeHandler} />
         {receive.map((data) => (
           <div className="card-c">

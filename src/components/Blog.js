@@ -11,8 +11,8 @@ import Health from '../images/Health.jpg';
 const Blogs = () => (
   <div className="blog_section" id="blog">
     <div className="blog_heading">
-      <h1>A lot is happening,</h1>
-      <h1>We're blogging about it.</h1>
+      <h1 style={{fontSize:"2.3rem"}}>A lot is happening,</h1>
+      <h1 style={{fontSize:"2.3rem"}}>We're blogging about it.</h1>
     </div>
     <div className="blog-container">
       <div className="blog-container_groupA">

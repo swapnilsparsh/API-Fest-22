@@ -1,0 +1,21 @@
+.staticCard{
+    margin-bottom:350px;
+}
+
+@media only screen and (max-width:680px){
+ 
+.staticCard{
+    margin-bottom:50px;
+}
+    
+}
+
+
+.static-card-outside{
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .static-card-inside{
+    margin: 20px;
+  }
