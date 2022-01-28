@@ -16,7 +16,8 @@ module.exports = [{
 },
 {
 "id":"3",    
-"img": "google.com ",
+"img": " ",
+"title": "codedamn",
 "info": "Build projects, practice and learn to code from scratch - without leaving your browser.",
 "link": "https://codedamn.com/",
 "rating": "3"
