@@ -10,6 +10,7 @@ const sing=require('./sing')
 const crypto = require('./crypto')
 const dance = require('./dance')
 const all=require('./all')
+const enter =require("./enter")
 
 app.get('/posts/all', (req,res) => {
     res.set('Access-Control-Allow-Origin', '*');
@@ -47,6 +48,11 @@ app.get('/posts/dance', (req,res) => {
     res.set('Access-Control-Allow-Origin', '*');
     res.json(dance)
 })
+app.get('/posts/enter', (req,res) => {
+    res.set('Access-Control-Allow-Origin', '*');
+    res.json(enter)
+})
+
 
 
 
