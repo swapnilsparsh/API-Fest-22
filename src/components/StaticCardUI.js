@@ -4,16 +4,18 @@ import "../styling/StaticCard.css";
 const StaticCardUI = (props) => {
   return (
     <div className="card-container">
-      <img className="check" src={props.image} alt=" " />
-
-      <div className="card-content">
-        <h3 className="card-title">{props.title}</h3>
-
-        <p className="paragraph">{props.info}</p>
-      </div>
-      <a href=' ' className="JoinButton"> Join Now</a>
+      <article className="card">
+        <div className="thumb">
+         <img  className="card_image" src={props.image} alt="" />
+        </div>
+          <div className="infos">
+           <h2 className="title">{props.title}</h2>
+        <p className="txt">{props.info}</p>
+    </div>
+</article>
     </div>
   );
 };
 
 export default StaticCardUI;
+
