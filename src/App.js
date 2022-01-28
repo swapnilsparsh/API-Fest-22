@@ -7,10 +7,7 @@ import "./styling/App.css";
 import Header from "./components/Header.jsx";
 import Cards from "./cards/Cards";
 import Footer from "./components/Footer.jsx";
-
-
-
-
+import Blog from "./Blog";
 const App = () => {
   return (
     <div className="app">
@@ -20,7 +17,7 @@ const App = () => {
         <Route exact path="/header" element={<Header />} />
         <Route exact path="/footer" element={<Footer />} />
         <Route exact path="/card" element={<Cards />} />
-
+        <Route exact path="/blog" element={<Blog />}/>
       </Routes>
     </div>
   );
