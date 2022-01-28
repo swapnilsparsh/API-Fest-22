@@ -6,6 +6,7 @@ const posts = require('./posts')
 const poetry = require('./poetry')
 const marketing= require('./marketing')
 const health=require('./health')
+const sing=require('./sing')
 
 app.get('/posts', (req, res) => {
     res.set('Access-Control-Allow-Origin', '*');
@@ -25,6 +26,13 @@ app.get('/posts/health', (req, res) => {
     res.set('Access-Control-Allow-Origin', '*');
     res.json(health)
 })
+
+app.get('/posts/sing', (req, res) => {
+    res.set('Access-Control-Allow-Origin', '*');
+    res.json(sing)
+})
+
+
 
 app.get('/', (req, res) => {
     res.send('Api is running.')
