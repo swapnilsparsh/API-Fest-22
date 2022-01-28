@@ -7,7 +7,7 @@ import "./styling/App.css";
 import Header from "./components/Header.jsx";
 import Cards from "./cards/Cards";
 import Footer from "./components/Footer.jsx";
-import Blog from "./Blog";
+import Blog from "./components/Blog";
 const App = () => {
   return (
     <div className="app">
