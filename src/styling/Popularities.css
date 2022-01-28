@@ -2,7 +2,7 @@
     width:83%;
     margin: 0 auto;
     position:absolute;
-    margin-top:250px;
+    margin-top:350px;
     margin-left:10%;
 }
 
@@ -17,9 +17,7 @@
 .celebs-head{
     position:absolute;
     font-size:2.3rem;
-    color:#fff;
     margin-top: -20px;
-    font-family: 'Libre Baskerville', serif;
 }
 
 .celeb-slider{
@@ -45,4 +43,12 @@
     display: flex;
     justify-content: right;
     margin-right: 30px;
+}
+
+@media only screen and (max-width:680px){
+ 
+    .celebs{
+        margin-top:100px;
+    }
+    
 }

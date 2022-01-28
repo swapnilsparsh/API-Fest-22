@@ -1,0 +1,84 @@
+.card-container {
+  margin-top: 50px;
+  width: 200px;
+  height: 500px;
+  box-shadow: 0px 0px 15px -5px;
+  transition: 0.3s;
+  background:white;
+  animation: ease-in;
+  border: 2px solid aquamarine;
+  text-align: center;
+  border-radius:10px;
+}
+
+.check {
+  width: 100%;
+  height: 250px;
+  border-radius:10px;
+  object-fit: contain;
+}
+
+.card-container:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 0px 15px 0px;
+}
+
+.card-content {
+  margin: 0.2rem;
+  margin-top: 0.4rem;
+  text-align: center;
+  background:transparent;
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+  padding-top: 20px;
+  color:black;
+  background:transparent;
+}
+
+
+.card-button button {
+  padding: 0.5rem;
+  background-color: #040c18;
+  border: none;
+  transition: 0.2s;
+  border-radius: 3px;
+}
+
+.card-button:hover {
+  transform: scale(1.1);
+  background: transparent;
+}
+
+.JoinButton {
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: -100px;
+  position: absolute;
+  margin-top: 25px;
+  background:transparent;
+  margin-left: -35px;
+  border-radius: 5px;
+  background:black;
+}
+
+.paragraph {
+  padding-top: 20px;
+  text-align: justify;
+  height: 100px;
+  background:transparent;
+  color:black;
+}
+
+.static-card-outside{
+  display: flex !important;
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
+.static-card-inside{
+  margin: 20px;
+}

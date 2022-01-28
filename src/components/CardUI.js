@@ -1,8 +1,7 @@
 import React from "react";
-import "./card-style.css";
+import "../styling/CardStyle.css";
 
 const Card = ({ title, info, link, rating, image }) => {
-  const img1 = "https://codeforcause.org/static/home/codeforcause.svg";
 
   return (
     <div className="container-fluid">

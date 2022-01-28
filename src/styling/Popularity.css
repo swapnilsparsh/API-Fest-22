@@ -13,6 +13,7 @@
 .pop-img{
     width:268px;
     height:200px;
+    object-fit: cover;
 }
 
 .celeb:hover .arrow{
@@ -67,12 +68,10 @@
     font-weight: 300;
     letter-spacing: 1px;
     transition: 0.5s;
-    font-family: 'Libre Baskerville', serif;
 }
 
 .info{
     color: rgba(2, 89, 235, 1);
-    font-family: Nunito;
     font-weight: 100;
     margin-left: 25px;
 }
@@ -91,7 +90,6 @@ opacity: 1;
     font-weight: 600;
     margin-top: 25px;
     margin-left: 25px;
-    font-family: Nunito;
 }
 
  .celeb span{
