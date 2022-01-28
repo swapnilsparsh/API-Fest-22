@@ -6,7 +6,7 @@ const CommunityData = [
     id: "0",
     img: "https://res.cloudinary.com/practicaldev/image/fetch/s--RIBRi0-i--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/organization/profile_image/4449/3da2c231-55bb-44a4-8e66-45e793742e9d.jpg",
     title: "Community Classroom",
-    info: "The organisation is founded by Kunal Kushwaha. This community provide hands-on training, mentorship for FREE and have an inclusive community.Here, one can get expert guidance with career, Open Source, and internships, jobs around the world.",
+    info: "The organisation is founded by Kunal Kushwaha. This community provide hands-on training, mentorship for FREE and have an inclusive community.",
     link: "https://www.commclassroom.org/",
     rating: "4",
   },
@@ -30,7 +30,7 @@ const CommunityData = [
     id: "3",
     img: "https://gssoc.girlscript.tech/images/favicon/favicon.png",
     title: "Girl Script",
-    info: "GirlScript is a section-8 NON PROFIT company registered under the government of India on the 2nd of June, 2017. GirlScript is open for all organisation and supports beginners in technology and programming. It supports diversity by reserving 50% seats for women & IGBT in all it's programs worldwide.",
+    info: "GirlScript is a section-8 NON PROFIT company registered under the government of India on the 2nd of June, 2017. ",
     link: "https://www.girlscript.tech/home",
     rating: "2",
   },
@@ -38,7 +38,7 @@ const CommunityData = [
     id: "6",
     img: "https://fossunited.org//files/fu.png",
     title: "FOSS United Foundation",
-    info: "FOSS United Foundation is a registered non-profit founded in 2020, dedicated to the cause of building Free and Open Source (FOSS) projects and communities in India and elsewhere.",
+    info: "FOSS United Foundation is a registered non-profit founded in 2020, dedicated to the cause of building Free and Open Source (FOSS) projects .",
     link: "https://fossunited.org/",
     rating: "2",
   },
@@ -55,6 +55,12 @@ const CommunityData = [
 const StaticCard = () => {
   return (
     <div>
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+        crossorigin="anonymous"
+      />
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-6 col-sm-12">
@@ -66,16 +72,39 @@ const StaticCard = () => {
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
             <StaticCardUI
-              image={CommunityData[0].img}
-              title={CommunityData[0].title}
-              info={CommunityData[0].info}
+              image={CommunityData[1].img}
+              title={CommunityData[1].title}
+              info={CommunityData[1].info}
             />
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
             <StaticCardUI
-              image={CommunityData[0].img}
-              title={CommunityData[0].title}
-              info={CommunityData[0].info}
+              image={CommunityData[2].img}
+              title={CommunityData[2].title}
+              info={CommunityData[2].info}
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <StaticCardUI
+              image={CommunityData[3].img}
+              title={CommunityData[3].title}
+              info={CommunityData[3].info}
+            />
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <StaticCardUI
+              image={CommunityData[4].img}
+              title={CommunityData[4].title}
+              info={CommunityData[4].info}
+            />
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <StaticCardUI
+              image={CommunityData[5].img}
+              title={CommunityData[5].title}
+              info={CommunityData[5].info}
             />
           </div>
         </div>
