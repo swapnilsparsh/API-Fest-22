@@ -1,34 +1,63 @@
 import React, { useEffect, useState } from "react";
-import Card from "./CardUI";
-
+import StaticCardUI from "./StaticCardUI";
+import CommunityFilter from "./CommunityFIlter";
+import "./cards.css";
 
 const Cards = () => {
+  const [filteredName, setFilteredName] = useState("all");
+  console.log(filteredName);
+
+  const filterChangeHandler = (selectedName) => {
+    setFilteredName(selectedName);
+    fetchData();
+  };
+  const URL = `https://community-info-api.herokuapp.com/posts/${filteredName}`;
+
+  // console.log(receive);
+  console.log(URL);
+  console.log(filteredName, "Hello");
   const [receive, setReceive] = useState([]);
   const fetchData = () => {
-    fetch("https://community-info-api.herokuapp.com/posts")
+    console.log(URL);
+    console.log(Math.random());
+
+    fetch(URL)
       .then((response) => {
         return response.json();
       })
       .then((data) => {
         let check = data;
-        console.log(check);
+        //console.log(check);
         setReceive(check);
       });
   };
 
   useEffect(() => {
+    console.log("Inside usEffect");
     fetchData();
   }, []);
+
   return (
-    <div className="container-fluid d-flex justify-content-center">
-      <div className="col-mod-4">
-        {receive.map(data => (
-          <Card
-          image={data.img}
-          title={data.title}
-          link={data.link}
-          info={data.info}
-           />
+    <div>
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+        crossorigin="anonymous"
+      />
+
+      <div className="card-ch">
+        <CommunityFilter NameChangeFilter={filterChangeHandler} />
+        {receive.map((data) => (
+          <div className="card-c">
+            <StaticCardUI
+              key={data.id}
+              image={data.img}
+              title={data.title}
+              link={data.link}
+              info={data.info}
+            />
+          </div>
         ))}
       </div>
     </div>
