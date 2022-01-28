@@ -1,0 +1,149 @@
+.blog{
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.main{
+    text-align: left;
+    display: flex;
+}
+.blog-sec1{
+    width: 36.7%;
+    background-color: #031B34;
+    color: white;
+    height: 1137px;
+}
+.blog-sec2{
+    margin-left: 2.5%;
+    width: 60%;
+}
+.container1{
+    display: flex;
+}
+.container2{
+    display: flex;
+    margin-top: 4%;
+}
+.div1{
+    background-color: #031B34;
+    color: white;
+    width: 44%;
+    height: 570px;
+}
+.div2{
+    background-color: #031B34;
+    color: white;
+    margin-left: 4%;
+    width: 43.9%;
+}
+.div3{
+    background-color: #031B34;
+    color: white;
+    width: 43.9%;
+    height: 532px;
+}
+.div4{
+    background-color: #031B34;
+    color: white;
+    margin-left: 4%;
+    width: 43.9%;
+}
+#anchor{
+    text-decoration: none;
+    color: white;
+}
+.apl{
+    height: 50%;
+    width: 100%;
+}
+#b-img{
+    height: 42%;
+    width: 100%;
+}
+
+#blog-head{
+    padding-left: 3%;
+    font-size: 1.6rem;
+}
+#date{
+    padding-left: 3%;
+}
+#detail1{
+    margin-left: 3%;
+    margin-top: 26%;
+}
+#detail2{
+    margin-left: 3%;
+    margin-top: 34.6%;
+}
+#detail3{
+    margin-left: 3%;
+    margin-top: 27%;
+}
+#detail4{
+    margin-left: 3%;
+    margin-top: 27%;
+}
+.apl-detail{
+    margin-left: 3%;
+    margin-top: 70%;
+}
+@media (max-width:1200px){
+    .blog-sec1{
+        width: 36.7%;
+        background-color: #031B34;
+        color: white;
+        height: 1129px;
+    }
+    .apl-detail{
+        margin-left: 3%;
+        margin-top: 90%;
+    }
+    #detail2{
+        margin-left: 3%;
+        margin-top: 48.6%;
+    }
+    #detail3{
+        margin-left: 3%;
+        margin-top: 39%;
+    }
+
+}
+@media (max-width:1156px){
+    #detail3{
+        margin-left: 3%;
+        margin-top: 29%;
+    }
+}
+@media (max-width:1012px){
+    #detail4{
+        margin-left: 3%;
+        margin-top: 18%;
+    }
+    .apl-detail{
+        margin-left: 3%;
+        margin-top: 96%;
+    }
+    #detail3{
+        margin-left: 3%;
+        margin-top: 33%;
+    }
+    #detail2{
+        margin-left: 3%;
+        margin-top: 52.6%;
+    }
+}
+@media (max-width:958px){
+    #detail3{
+        margin-left: 3%;
+        margin-top: 30%;
+    }
+}
+@media (max-width:843px){
+    #detail1{
+        margin-left: 3%;
+        margin-top: 20%;
+    }
+}
+
+
