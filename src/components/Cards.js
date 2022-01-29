@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import StaticCardUI from "./StaticCardUI";
+import Hi from "./Check";
 import CommunityFilter from "./CommunityFIlter";
-import "./cards.css";
-import axios from "axios";
+import "../styling/Cards.css";
 
 const Cards = ({ fetchUrl }) => {
   const [filteredName, setFilteredName] = useState("all");
@@ -51,32 +51,32 @@ const Cards = ({ fetchUrl }) => {
   useEffect(() => {
     console.log("Inside usEffect");
     fetchData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [URL]);
 
   return (
-    <div>
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-        crossorigin="anonymous"
-      />
-
+    <>
+      <Hi />
       <div className="card-ch">
-        <CommunityFilter NameChangeFilter={filterChangeHandler} />
-        {receive.map((data) => (
-          <div className="card-c">
-            <StaticCardUI
-              key={data.id}
-              image={data.img}
-              title={data.title}
-              link={data.link}
-              info={data.info}
-            />
-          </div>
-        ))}
+        <CommunityFilter
+          className="filter"
+          NameChangeFilter={filterChangeHandler}
+        />
+        <div className="card-main">
+          {receive.map((data) => (
+            <div className="card-c">
+              <StaticCardUI
+                key={data.id}
+                image={data.img}
+                title={data.title}
+                link={data.link}
+                info={data.info}
+              />
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

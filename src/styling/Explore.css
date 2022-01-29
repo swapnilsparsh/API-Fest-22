@@ -134,6 +134,7 @@
 @media only screen and (max-width:680px){
     .explore-heading{
         font-size: 1rem;
+        margin-top: 0;
     }
 
     .explore{

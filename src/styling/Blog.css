@@ -1,6 +1,7 @@
 .blog_section {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+    margin-top: 950px;    
 }
 
 .blog_heading {
@@ -129,6 +130,11 @@
     cursor: pointer;
 }
 
+@media only screen and (max-width:680px){
+    .blog_section {
+        margin-top: 750px;    
+    }
+}
 
 @media screen and (max-width: 550px) {
     .article-content h3 {

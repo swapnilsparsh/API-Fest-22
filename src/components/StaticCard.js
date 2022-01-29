@@ -1,5 +1,6 @@
 import React from "react";
 import StaticCardUI from "./StaticCardUI";
+import '../styling/Static.css'
 
 const CommunityData = [
   {
@@ -54,53 +55,51 @@ const CommunityData = [
 
 const StaticCard = () => {
   return (
-    <div>
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-        crossorigin="anonymous"
-      />
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12">
+    <>
+    <p className="static_card_para" >Top Communities</p>
+    <div className="staticCard">
+      <div class="static-card-outside">
+        
+          <div class="static-card-inside">
             <StaticCardUI
               image={CommunityData[0].img}
               title={CommunityData[0].title}
               info={CommunityData[0].info}
-            />
+          />
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          
+          <div class="static-card-inside">
             <StaticCardUI
               image={CommunityData[1].img}
               title={CommunityData[1].title}
               info={CommunityData[1].info}
-            />
+          />
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="static-card-inside">
             <StaticCardUI
               image={CommunityData[2].img}
               title={CommunityData[2].title}
               info={CommunityData[2].info}
             />
           </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12">
+        
+        
+          <div class="static-card-inside">
             <StaticCardUI
               image={CommunityData[3].img}
               title={CommunityData[3].title}
               info={CommunityData[3].info}
             />
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
+            </div>
+          
+          <div class="static-card-inside">
             <StaticCardUI
               image={CommunityData[4].img}
               title={CommunityData[4].title}
               info={CommunityData[4].info}
             />
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="static-card-inside">
             <StaticCardUI
               image={CommunityData[5].img}
               title={CommunityData[5].title}
@@ -109,7 +108,7 @@ const StaticCard = () => {
           </div>
         </div>
       </div>
-    </div>
+      </>
   );
 };
 

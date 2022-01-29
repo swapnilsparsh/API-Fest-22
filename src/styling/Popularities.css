@@ -1,0 +1,56 @@
+.celebs{
+    width:83%;
+    margin: 0 auto;
+    position:absolute;
+    margin-top:350px;
+    margin-left:10%;
+}
+
+.celebs-underline{
+    position:absolute;
+    margin-top:-240px;
+    height:300px;
+    width:50px;
+    border-bottom: 3px solid rgba(2, 89, 235, 1);
+}
+
+.celebs-head{
+    position:absolute;
+    font-size:2.3rem;
+    margin-top: -20px;
+    z-index:2;
+    background:transparent;
+}
+
+.celeb-slider{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.slick-track{
+    padding-top: 40px;
+}
+
+.celebs-left{
+    background:transparent;
+    border:none
+}
+
+.celebs-right{
+    background:transparent;
+    border:none
+}
+
+.celebs-controls{
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+}
+
+@media only screen and (max-width:680px){
+ 
+    .celebs{
+        margin-top:100px;
+    }
+    
+}
