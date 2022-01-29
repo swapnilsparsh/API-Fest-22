@@ -14,8 +14,7 @@ class SignIn extends React.Component{
           email: '',
           password: '',
          
-          // we have to use that same token store it in our local storage
-          //  and send it along with request to the server
+         
          }
     
         this.onSubmitHandler = this.onSubmitHandler.bind(this);
