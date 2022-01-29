@@ -4,6 +4,7 @@
     background:#040c18;
     color:#aefeff;
     font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
 }
 
 a{
