@@ -55,6 +55,8 @@ const CommunityData = [
 
 const StaticCard = () => {
   return (
+    <>
+    <p className="static_card_para" >Top Communities</p>
     <div className="staticCard">
       <div class="static-card-outside">
         
@@ -63,14 +65,15 @@ const StaticCard = () => {
               image={CommunityData[0].img}
               title={CommunityData[0].title}
               info={CommunityData[0].info}
-            />
+          />
+          </div>
           
           <div class="static-card-inside">
             <StaticCardUI
               image={CommunityData[1].img}
               title={CommunityData[1].title}
               info={CommunityData[1].info}
-            />
+          />
           </div>
           <div class="static-card-inside">
             <StaticCardUI
@@ -79,7 +82,7 @@ const StaticCard = () => {
               info={CommunityData[2].info}
             />
           </div>
-        </div>
+        
         
           <div class="static-card-inside">
             <StaticCardUI
@@ -87,6 +90,7 @@ const StaticCard = () => {
               title={CommunityData[3].title}
               info={CommunityData[3].info}
             />
+            </div>
           
           <div class="static-card-inside">
             <StaticCardUI
@@ -104,7 +108,7 @@ const StaticCard = () => {
           </div>
         </div>
       </div>
-    </div>
+      </>
   );
 };
 

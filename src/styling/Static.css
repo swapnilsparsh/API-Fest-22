@@ -1,5 +1,15 @@
 .staticCard{
+    margin:0 auto;
     margin-bottom:350px;
+    margin-top:300px;
+    width:90%;
+    
+}
+.static_card_para{
+  font-size:2.5rem;
+  margin-top:80px;
+  text-align:center;
+  margin-bottom:-90px;
 }
 
 @media only screen and (max-width:680px){
@@ -14,7 +24,8 @@
 .static-card-outside{
     display: flex !important;
     flex-wrap: wrap;
-    justify-content: center;
+    width:95%;
+    margin-left:18%;
   }
   .static-card-inside{
     margin: 20px;
