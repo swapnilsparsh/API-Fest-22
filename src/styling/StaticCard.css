@@ -1,5 +1,4 @@
 article.card {
-  /* position: absolute; */
   top: 50%;
   left: 50%; 
   width: 300px;
@@ -8,6 +7,7 @@ article.card {
   border-radius: 3px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
   overflow: hidden;
+  margin-right:70px;
 }
 .thumb .card_image{
   width: 300px;
@@ -36,7 +36,6 @@ article.card .infos .title {
   text-shadow: 0 0 0px #fff;
 }
 article.card .infos .flag {
-  /* position: absolute; */
   top: 50%;
   right: 0;
   transform: translateY(-50%);
@@ -65,7 +64,6 @@ article.card .infos .txt {
   transition: 0.5s 0.25s cubic-bezier(0.17, 0.67, 0.5, 1.03);
 }
 article.card .infos .details {
-  /* position: absolute; */
   left: 0;
   left: 0;
   bottom: 0;
@@ -92,6 +90,5 @@ article.card:hover .infos .seats, article.card:hover .infos .txt, article.card:h
 }
 .txt{
   background:transparent;
-  margin-bottom:200px;
-  
+  margin-bottom:200px;  
 }

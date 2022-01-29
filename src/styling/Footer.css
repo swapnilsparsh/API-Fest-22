@@ -1,0 +1,36 @@
+.footer_section{
+    background: transparent;
+    background-color:#1d58bdc4 ;
+    width:100%;
+    margin:0;
+    margin-top:50px;
+    min-height: 180px;
+}
+
+.footer_sub_section{
+    width:90%;
+    margin:0 auto;
+    z-index:2;
+    min-height: 160px;;
+}
+
+.footer_points{
+    display: flex;
+    justify-content: space-around;
+    width:80%;
+    margin:10px auto;
+    /* margin-top:20px; */
+}
+.footer_line{
+    width:90%;
+    margin:10px auto;
+}
+.footer_end_point{
+    text-align:center;
+}
+.footer_end_points{
+    text-align:center;
+    background-color:#002566c0 ;
+    margin-top:60px;
+    height:30px;
+}
