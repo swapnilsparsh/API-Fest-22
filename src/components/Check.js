@@ -55,9 +55,7 @@ export default function Header() {
   <Navbar.Collapse id="responsive-navbar-nav" bg="transparent">
     <Nav className="me-auto" />
     <Nav>
-      <Nav.Link href=""  className={classes.headerSearch}>Home</Nav.Link>
-      <Nav.Link  className={classes.help}> Communities </Nav.Link>
-      <Nav.Link  className={classes.account}> Login </Nav.Link>
+      <Nav.Link href="/"  className={classes.headerSearch}>Home</Nav.Link>
       {/* <Nav.Link > <img className={classes.shop} src={shop} alt="" /> </Nav.Link> */}
     </Nav>
   </Navbar.Collapse>

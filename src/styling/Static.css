@@ -22,7 +22,6 @@
 .static-card-outside{
     display: flex !important;
     flex-wrap: wrap;
-    width:85%;
     padding-left:300px;
   }
   .static-card-inside{
