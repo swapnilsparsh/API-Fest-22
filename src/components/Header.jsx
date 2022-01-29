@@ -4,15 +4,33 @@ import dribble from '../images/dribble.png';
 import side from '../images/Header-lower.png';
 import 'font-awesome/css/font-awesome.min.css';
 import TiltPhaseSix from './TiltPhase';
+import community from '../images/Community.png'
 
 
 
 const Header = () => {
   return <>
       <TiltPhaseSix>
-      <div className="header">
-          <div className="header_appbar" id="head">
-              
+      <div className="header" id="head">
+              <div className="header_appbar">
+              <img  className ="header_logo" src={community} alt="LOGO" />
+              <div className="header_nav">
+                  <h4 className="header_nav_points">
+                      Home
+                  </h4>
+                   <h4 className="header_nav_points">
+                      Communities
+                      <div className="header_dropdown-content">
+                          <a href="/explore ">Tech</a>
+                          <a href="/explore ">Commerce</a>
+                          <a href="/explore ">Arts</a>
+                      </div>
+                  </h4>
+                   <h4 className="header_nav_points">
+                      <a style={{background:'transparent'}} target="blank" href="mailto:arezona.lucky55@gmail.com"> ContactUs  </a>
+                  </h4>
+              </div>
+              <div className="header_sign_in_up" />
           </div>
           <div className="header_header-content">
               <div className="header_written_content">

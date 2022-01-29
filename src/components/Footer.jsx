@@ -3,7 +3,7 @@ import '../styling/Footer.css';
 
 const Footer = () => {
   return <div>
-    <div className="footer_section">
+   <div className="footer_section">
       <div className="footer_sub_section">
         <div className="footer_points">
           <p className="footer_point">
@@ -29,7 +29,7 @@ const Footer = () => {
         </p>
       </div>
       <p className="footer_end_points">
-         
+
         </p>
     </div>
   </div>;

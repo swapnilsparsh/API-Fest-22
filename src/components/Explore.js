@@ -16,7 +16,7 @@ const Explore = () => {
         WANNA EXPLORE MORE? <br />
         WHY NOT{" "}
         <a href="/po">
-          <span className="explore-tunein">TUNE IN</span>
+          <a href="/explore"><span className="explore-tunein">TUNE IN</span></a>
         </a>
       </p>
       <div className="explore-cat">

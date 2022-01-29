@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import StaticCardUI from "./StaticCardUI";
+import Hi from "./Check";
 import CommunityFilter from "./CommunityFIlter";
 import "../styling/Cards.css";
 
@@ -36,12 +37,14 @@ const Cards = () => {
     console.log("Inside usEffect");
     fetchData();
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [URL]);
 
   return (
-    <div>
+    <>
+    <Hi />
     <div className="card-ch">
-        <CommunityFilter NameChangeFilter={filterChangeHandler} />
+    <CommunityFilter className="filter" NameChangeFilter={filterChangeHandler} />
+    <div className="card-main">
         {receive.map((data) => (
           <div className="card-c">
             <StaticCardUI
@@ -54,7 +57,8 @@ const Cards = () => {
           </div>
         ))}
       </div>
-    </div>
+      </div>
+      </>
   );
 };
 

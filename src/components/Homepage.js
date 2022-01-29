@@ -6,6 +6,7 @@ import StaticCard from "./StaticCard";
 import Footer from "./Footer.jsx";
 import Blog from "./Blog";
 
+
 const Homepage = () => {
   return (
   <div className="homepage"> 

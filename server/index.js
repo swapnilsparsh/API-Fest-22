@@ -1,5 +1,26 @@
 const express = require('express')
 const app = express();
+const morgan=require('morgan');
+const cors=require('cors');
+const bodyParser = require("body-parser");
+const mongoose=require('mongoose');
+
+
+mongoose.connect('mongodb://127.0.0.1/apifest',{
+    // useCreateIndex: true,
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+});
+
+mongoose.Promise=global.Promise;
+
+
+
+app.use(morgan('dev'));
+app.use(cors());
+app.use(bodyParser.urlencoded({extended:false}));
+app.use(bodyParser.json());
+
 
 const PORT = process.env.PORT || 3233;
 const posts = require('./posts')
@@ -11,6 +32,12 @@ const crypto = require('./crypto')
 const dance = require('./dance')
 const all=require('./all')
 const enter =require("./enter")
+
+
+
+//signin and signup
+app.use('/signUp', require('./router/signUp'));
+app.use('/signIn',require('./router/signIn'));
 
 app.get('/posts/all', (req,res) => {
     res.set('Access-Control-Allow-Origin', '*');
@@ -61,3 +88,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
+module.exports=app;

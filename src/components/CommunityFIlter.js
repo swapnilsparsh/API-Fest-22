@@ -7,12 +7,18 @@ const CommunityFilter = (props) => {
   return (
     <div className="expenses-filter">
       <div className="expenses-filter__control">
-        <label>Filter by year</label>
+        <label>Filter by Categories</label>
         <select value={props.selected} onChange={dropDownChangeHandler}>
-          <option value="all">all</option>
-          <option value="health">health</option>
-          <option value="marketing">marketing</option>
-          <option value="crypto">crypto</option>
+          <option value="all">All</option>
+          <option value="health">Health</option>
+          <option value="marketing">Marketing</option>
+          <option value="crypto">Crypto</option>
+          <option value="sing">Music</option>
+          <option value="poetry">Poetry</option>
+          <option value="dance">Dancing</option>
+          <option value="">Tech</option>
+          <option value="enter">Entertainment</option>
+          {/* <option value="enter">Investing</option> */}
         </select>
       </div>
     </div>
