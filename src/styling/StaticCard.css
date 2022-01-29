@@ -1,16 +1,16 @@
 article.card {
-  top: 50%;
-  left: 50%; 
-  width: 300px;
+  /* top: 50%;
+  left: 50%;  */
+  width: 280px;
   height: 350px;
   transform: translate(-50%, -50%) translateZ(0);
   border-radius: 3px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
   overflow: hidden;
-  margin-right:70px;
+  margin-right:40px;
 }
 .thumb .card_image{
-  width: 300px;
+  width: 280px;
   height: 260px;
   background-size: cover;
   border-radius: 3px;
@@ -21,14 +21,14 @@ article.card {
 article.card .infos {
   width: auto;
   height: 1000px;
-  position: relative;
+  /* position: relative; */
   padding: 14px 24px;
   background: rgb(5, 0, 0);
   transition: 0.4s 0.15s cubic-bezier(0.17, 0.67, 0.5, 1.03);
   color:white;
 }
 article.card .infos .title {
-  position: relative;
+  /* position: relative; */
   margin: 10px 0;
   letter-spacing: 3px;
   font-size: 1rem;
@@ -36,8 +36,8 @@ article.card .infos .title {
   text-shadow: 0 0 0px #fff;
 }
 article.card .infos .flag {
-  top: 50%;
-  right: 0;
+  /* top: 50%; */
+  /* right: 0; */
   transform: translateY(-50%);
   width: 35px;
   height: 23px;

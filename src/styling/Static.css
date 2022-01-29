@@ -1,8 +1,8 @@
 .staticCard{
-    margin:0 auto;
+    margin:0 ;
     margin-bottom:350px;
     margin-top:300px;
-    width:90%;
+    width:85%;
     
 }
 .static_card_para{
@@ -24,8 +24,8 @@
 .static-card-outside{
     display: flex !important;
     flex-wrap: wrap;
-    width:95%;
-    margin-left:18%;
+    width:85%;
+    padding-left:300px;
   }
   .static-card-inside{
     margin: 20px;
