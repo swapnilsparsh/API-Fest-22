@@ -2,7 +2,6 @@ import React from 'react';
 import '../styling/Header.css';
 import dribble from '../images/dribble.png';
 import side from '../images/Header-lower.png';
-import community from '../images/Community.png';
 import 'font-awesome/css/font-awesome.min.css';
 import TiltPhaseSix from './TiltPhase';
 
@@ -13,38 +12,7 @@ const Header = () => {
       <TiltPhaseSix>
       <div className="header">
           <div className="header_appbar">
-              <img  className ="header_logo" src={community} alt="LOGO" />
-              <div className="header_nav">
-                  <h4 className="header_nav_points">
-                      Home
-                      <div className="header_dropdown-content">
-                          <a href=" ">Famous Communities</a>
-                          <a href=" ">Popular Searches</a>
-                      </div>
-                  </h4>
-                   <h4 className="header_nav_points">
-                      Communities
-                      <div className="header_dropdown-content">
-                          <a href=" ">Tech</a>
-                          <a href=" ">Commerce</a>
-                          <a href=" ">Arts</a>
-                      </div>
-                  </h4>
-                   <h4 className="header_nav_points">
-                      ContactUs
-                      <div className="header_dropdown-content">
-                          <a href=" ">1</a>
-                          <a href=" ">2</a>
-                      </div>
-                  </h4>
-              </div>
-              <div className="header_sign_in_up">
-                  <button className="header_dropbtn"><i class="fa fa-user-o fa-2x" style={{background: "transparent"}}></i></button>
-                  <div className="header_dropdown-content">
-                      <a href=" ">Log In</a>
-                      <a href=" ">Register</a>
-                  </div>
-              </div>
+              
           </div>
           <div className="header_header-content">
               <div className="header_written_content">
