@@ -15,6 +15,12 @@ logo:{
      fontSize:'15px',
      marginRight: '40px',
  },
+ trans:{
+     background:'transparent'
+ },
+ collapse:{
+ background:'transparent'
+ },
  search:{
      width:'12px',
      marginTop:'-5px'
@@ -35,11 +41,18 @@ logo:{
 export default function Header() {
   const classes = useStyles();
   return (
-    <Navbar fixed='top' collapseOnSelect expand="lg" bg="none" variant="dark" color="white">
-  <Container>
+      <>
+      <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+  crossorigin="anonymous"
+/>
+    <Navbar fixed='top' collapseOnSelect expand="lg" bg="transparent" variant="dark" color="white">
+  <Container className={classes.trans}>
   <Navbar.Brand> <a href="/"><img className={classes.logo} src={logo} alt="" /></a></Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" bg="transparent" />
+  <Navbar.Collapse id="responsive-navbar-nav" bg="transparent">
     <Nav className="me-auto" />
     <Nav>
       <Nav.Link href=""  className={classes.headerSearch}>Home</Nav.Link>
@@ -50,5 +63,6 @@ export default function Header() {
   </Navbar.Collapse>
   </Container>
 </Navbar>
+</>
   );
 }

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import StaticCardUI from "./StaticCardUI";
+import Hi from "./Check";
 import CommunityFilter from "./CommunityFIlter";
 import "../styling/Cards.css";
 
@@ -39,8 +40,10 @@ const Cards = () => {
   }, [URL]);
 
   return (
+    <>
+    <Hi />
     <div className="card-ch">
-    <CommunityFilter NameChangeFilter={filterChangeHandler} />
+    <CommunityFilter className="filter" NameChangeFilter={filterChangeHandler} />
     <div className="card-main">
         {receive.map((data) => (
           <div className="card-c">
@@ -55,6 +58,7 @@ const Cards = () => {
         ))}
       </div>
       </div>
+      </>
   );
 };
 

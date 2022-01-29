@@ -7,7 +7,7 @@ const CommunityFilter = (props) => {
   return (
     <div className="expenses-filter">
       <div className="expenses-filter__control">
-        <label>Filter by year</label>
+        <label>Filter by Categories</label>
         <select value={props.selected} onChange={dropDownChangeHandler}>
           <option value="all">all</option>
           <option value="health">health</option>
