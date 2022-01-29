@@ -1,9 +1,8 @@
-.card-ch {
+
+.card-main{
+  margin-top:300px;
   display: flex !important;
   flex-wrap: wrap;
-
   justify-content: center;
-}
-.card-c {
-  margin: 20px;
+  margin-left: 20%;
 }

@@ -36,12 +36,12 @@ const Cards = () => {
     console.log("Inside usEffect");
     fetchData();
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [URL]);
 
   return (
-    <div>
     <div className="card-ch">
-        <CommunityFilter NameChangeFilter={filterChangeHandler} />
+    <CommunityFilter NameChangeFilter={filterChangeHandler} />
+    <div className="card-main">
         {receive.map((data) => (
           <div className="card-c">
             <StaticCardUI
@@ -54,7 +54,7 @@ const Cards = () => {
           </div>
         ))}
       </div>
-    </div>
+      </div>
   );
 };
 
