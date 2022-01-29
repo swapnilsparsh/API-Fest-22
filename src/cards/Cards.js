@@ -2,24 +2,40 @@ import React, { useEffect, useState } from "react";
 import StaticCardUI from "./StaticCardUI";
 import CommunityFilter from "./CommunityFIlter";
 import "./cards.css";
+import axios from "axios";
 
-const Cards = () => {
+const Cards = ({ fetchUrl }) => {
   const [filteredName, setFilteredName] = useState("all");
-  console.log(filteredName);
 
   const filterChangeHandler = (selectedName) => {
     setFilteredName(selectedName);
-    fetchData();
   };
   const URL = `https://community-info-api.herokuapp.com/posts/${filteredName}`;
 
-  // console.log(receive);
-  console.log(URL);
-  console.log(filteredName, "Hello");
+  // const [loading, setLoading] = useState([]);
+  // const [check, setCheck] = useState(false);
+
+  // var response;
+  // useEffect(() => {
+  //   const loadPose = async () => {
+  //     setCheck(true);
+  //     response = await axios.get(
+  //       `https://community-info-api.herokuapp.com/posts/${filteredName}`
+  //     );
+  //     console.log(filteredName);
+  //     setLoading(response.data);
+  //     setCheck(false);
+  //     // console.log(response.data);
+  //   };
+  //   loadPose();
+  // }, []);
+
+  //  console.log(loading);
+
   const [receive, setReceive] = useState([]);
   const fetchData = () => {
     console.log(URL);
-    console.log(Math.random());
+    console.log("inside fd");
 
     fetch(URL)
       .then((response) => {
@@ -35,7 +51,7 @@ const Cards = () => {
   useEffect(() => {
     console.log("Inside usEffect");
     fetchData();
-  }, []);
+  }, [URL]);
 
   return (
     <div>
