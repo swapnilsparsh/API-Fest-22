@@ -11,13 +11,18 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.25.0",
     "express": "^4.17.2",
+    "firebase": "^9.6.5",
     "font-awesome": "^4.7.0",
     "node-fetch": "^3.2.0",
     "react": "^17.0.2",
+    "react-bootstrap": "^2.1.1",
+    "react-bootstrap-validation": "^0.1.11",
     "react-dom": "^17.0.2",
     "react-router": "^6.2.1",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
+    "stream-chat": "^5.4.0",
+    "universal-cookie": "^4.0.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

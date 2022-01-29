@@ -37,8 +37,8 @@ const Header = () => {
               <div className="sign_in_up">
                   <button className="dropbtn"><i class="fa fa-user-o fa-2x" style={{background: "transparent"}}></i></button>
                   <div className="dropdown-content">
-                      <a href=" ">Log In</a>
-                      <a href=" ">Register</a>
+                      <a href="/auth">Log In</a>
+                      <a href="./">Register</a>
                   </div>
               </div>
           </div>

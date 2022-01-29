@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.header_heading{
+    color:aliceblue;
+    font-size: 6rem;
+    margin-left: 3%;
+    font-family: 'Acme', sans-serif;
+    position: absolute;
+    margin-left: 30%;
+}
+
+.logo{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    margin-left: 16%;
+    position: absolute;
+    margin-top: 1%;
+}
+
+.header_login{
+    display: flex;
+}
+
+.signup_btn{
+    height:50px;
+    width: 130px;
+    color: black;
+    background:yellow;
+    position: absolute;
+    margin-left: 80%;
+    border-radius:5px;
+    margin-top:3%;
+    font-size:1.3rem;
+    border-width: 3px;
+    font-family: 'Varela Round', sans-serif;
+}
+.signup_btn:hover{
+    background: red;
+    color: yellow;
+    border-color: yellow;
+}

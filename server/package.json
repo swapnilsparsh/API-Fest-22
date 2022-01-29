@@ -9,7 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "brcypt": "^1.0.1",
     "cors": "^2.8.5",
-    "express": "^4.17.2"
+    "crypto": "^1.0.1",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "stream": "^0.0.2",
+    "stream-chat": "^5.4.0"
   }
 }

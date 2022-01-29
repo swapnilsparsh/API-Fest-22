@@ -7,6 +7,9 @@ import "./styling/App.css";
 import Header from "./components/Header.jsx";
 import Cards from "./cards/Cards";
 import Blog from "./Blog";
+import Login from "./components/Login";
+import Auth from "./components/Auth";
+
 const App = () => {
   return (
     <div className="app">
@@ -16,6 +19,9 @@ const App = () => {
         <Route exact path="/header" element={<Header />} />
         <Route exact path="/card" element={<Cards />} />
         <Route exact path="/blog" element={<Blog />}/>
+        <Route exact path="/login" element={<Login />}/>
+         <Route exact path="/auth" element={<Auth />}/>
+    
       </Routes>
     </div>
   );
