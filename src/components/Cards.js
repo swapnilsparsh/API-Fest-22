@@ -6,29 +6,21 @@ import "../styling/Cards.css";
 
 const Cards = () => {
   const [filteredName, setFilteredName] = useState("all");
-  console.log(filteredName);
 
   const filterChangeHandler = (selectedName) => {
     setFilteredName(selectedName);
-    fetchData();
   };
-  const URL = `https://community-info-api.herokuapp.com/posts/${filteredName}`;
 
-  // console.log(receive);
-  console.log(URL);
-  console.log(filteredName, "Hello");
+
+  const URL = `https://community-info-api.herokuapp.com/posts/${filteredName}`;
   const [receive, setReceive] = useState([]);
   const fetchData = () => {
-    console.log(URL);
-    console.log(Math.random());
-
     fetch(URL)
       .then((response) => {
         return response.json();
       })
       .then((data) => {
         let check = data;
-        //console.log(check);
         setReceive(check);
       });
   };

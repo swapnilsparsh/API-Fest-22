@@ -25,7 +25,7 @@ const Footer = () => {
         <br />
         <hr className="footer_line" />
         <p className="footer_end_point">
-          © Copyright 2022 CommunityHunter, Inc. All rights reserved
+          © Copyright 2022 Community-Hunter, Inc. All rights reserved
         </p>
       </div>
       <p className="footer_end_points">
