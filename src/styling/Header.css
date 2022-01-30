@@ -12,6 +12,10 @@
     height:22vh;
 }
 
+.homie{
+    background: transparent;
+}
+
 .header_appbar{
     display: flex;
     justify-content: space-between;
