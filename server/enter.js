@@ -4,7 +4,8 @@ module.exports=[{
     "title":"IMDB",
     "info":"IMDb is an online database of information related to films, television series, home videos, video games, and streaming content online",
     "link":"https://www.imdb.com/",
-    "rating":"4"
+    "rating":"4",
+    "platform":"Website"
 },
 {
     "id":"1",
@@ -12,7 +13,8 @@ module.exports=[{
     "title":"Cnn",
     "info":"The Cable News Network is a multinational news-based pay television channel headquartered in Atlanta, United States.",
     "link":"https://edition.cnn.com/",
-    "rating":"4"
+    "rating":"4",
+    "platform":"Website"
 },
 {
     "id":"2",
@@ -20,7 +22,8 @@ module.exports=[{
     "title":"Twitch.tv",
     "info":"Twitch is an American video live streaming service that focuses on video game live streaming, including broadcasts of esports competitions, in addition to offering music broadcasts, creative content, and streams.",
     "link":"https://www.twitch.tv/",
-    "rating":"4"
+    "rating":"4",
+    "platform":"Website"
 },
 {
     "id":"3",
@@ -28,7 +31,8 @@ module.exports=[{
     "title":"Bbc.com",
     "info":"Breaking news, sport, TV, radio and a whole lot more. The BBC informs, educates and entertains - wherever you are, whatever your age.",
     "link":"https://bbc.com/",
-    "rating":"4"
+    "rating":"4",
+    "platform":"Website"
 },
 {
     "id":"4",
@@ -36,7 +40,8 @@ module.exports=[{
     "title":"Soundcloud.com",
     "info":"Discover and play over 265 million music tracks. Join the world's largest online community of artists, bands, DJs, and audio creators.",
     "link":"https://soundcloud.com/",
-    "rating":"4"
+    "rating":"4",
+    "platform":"Website"
 },
 {
     "id":"5",
@@ -44,7 +49,8 @@ module.exports=[{
     "title":"Etsy.com",
     "info":"Etsy is a global online marketplace, where people come together to make, sell, buy, and collect unique items. ",
     "link":"https://www.etsy.com/",
-    "rating":"4"
+    "rating":"4",
+    "platform":"Website"
 },
 {
     "id":"6",
@@ -52,7 +58,8 @@ module.exports=[{
     "title":"AZlyrics.com",
     "info":"It's a place where all searches end! We have a large, legal, every day growing universe of lyrics where stars of all genres and ages ",
     "link":"https://www.azlyrics.com/",
-    "rating":"4"
+    "rating":"4",
+    "platform":"Website"
 },
 {
     "id":"7",
@@ -60,7 +67,8 @@ module.exports=[{
     "title":"Foxnews.com",
     "info":"Breaking News, Latest News and Current News from FOXNews.com.  ",
     "link":"https://www.foxnews.com/",
-    "rating":"4"
+    "rating":"4",
+    "platform":"Website"
 },
 {
     "id":"8",
@@ -68,7 +76,8 @@ module.exports=[{
     "title":"Deviantart.com",
     "info":"DeviantArt is an American online art community featuring artwork, videography and photography subsidiary of the Israeli company Wix.com. ",
     "link":"https://www.deviantart.com/",
-    "rating":"4"
+    "rating":"4",
+    "platform":"Website"
 },
 {
     "id":"9",
@@ -76,5 +85,6 @@ module.exports=[{
     "title":"Foodnetwork.com",
     "info":"Food Network is an American basic cable channel owned by Television Food Network, G.P., a joint venture and general partnership between Discovery, Inc. and Nexstar Media Group. ",
     "link":"https://foodnetwork.com/",
-    "rating":"4"
+    "rating":"4",
+    "platform":"Website"
 }]
