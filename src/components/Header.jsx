@@ -16,14 +16,19 @@ const Header = () => {
               <img  className ="header_logo" src={community} alt="LOGO" />
               <div className="header_nav">
                   <h4 className="header_nav_points">
-                      Home
+                      <a className='homie' href="/"> Home </a>
                   </h4>
                    <h4 className="header_nav_points">
                       Communities
                       <div className="header_dropdown-content">
                           <a href="/explore ">Tech</a>
-                          <a href="/explore ">Commerce</a>
-                          <a href="/explore ">Arts</a>
+                          <a href="/explore ">Marketing</a>
+                          <a href="/explore ">Investing</a>
+                          <a href="/explore ">Poetry</a>
+                          <a href="/explore ">Health</a>
+                          <a href="/explore ">E-Commerce</a>
+                          <a href="/explore ">Entertainment</a>
+                          <a href="/explore ">Crypto</a>
                       </div>
                   </h4>
                    <h4 className="header_nav_points">

@@ -1,9 +1,6 @@
 article.card {
-  /* top: 50%;
-  left: 50%;  */
   width: 280px;
   height: 350px;
-  transform: translate(-50%, -50%) translateZ(0);
   border-radius: 3px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
   overflow: hidden;
@@ -16,20 +13,17 @@ article.card {
   background-size: cover;
   border-radius: 3px;
   object-fit: contain;
-  justify-content: center;
   background:white;
 }
 article.card .infos {
   width: auto;
   height: 1000px;
-  /* position: relative; */
   padding: 14px 24px;
   background: rgb(5, 0, 0);
   transition: 0.4s 0.15s cubic-bezier(0.17, 0.67, 0.5, 1.03);
   color:white;
 }
 article.card .infos .title {
-  /* position: relative; */
   margin: 10px 0;
   letter-spacing: 3px;
   font-size: 1rem;
