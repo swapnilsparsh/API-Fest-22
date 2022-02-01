@@ -8,7 +8,7 @@ const CommunityFilter = (props) => {
     <div className="expenses-filter">
       <div className="expenses-filter__control">
         <label>Filter by Categories</label>
-        <select value={props.selected} onChange={dropDownChangeHandler}>
+        <select onChange={dropDownChangeHandler}>
           <option value="all">All</option>
           <option value="health">Health</option>
           <option value="marketing">Marketing</option>

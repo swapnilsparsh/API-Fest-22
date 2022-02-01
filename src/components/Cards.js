@@ -3,14 +3,17 @@ import StaticCardUI from "./StaticCardUI";
 import Hi from "./Check";
 import CommunityFilter from "./CommunityFIlter";
 import "../styling/Cards.css";
+import { name } from "./Explore";
 
 const Cards = () => {
-  const [filteredName, setFilteredName] = useState("all");
+  if (localStorage.myValue === undefined) {
+    localStorage.myValue = "all";
+  }
+  const [filteredName, setFilteredName] = useState(localStorage.myValue);
 
   const filterChangeHandler = (selectedName) => {
     setFilteredName(selectedName);
   };
-
 
   const URL = `https://community-info-api.herokuapp.com/posts/${filteredName}`;
   const [receive, setReceive] = useState([]);
@@ -25,32 +28,37 @@ const Cards = () => {
       });
   };
 
+  console.log(sessionStorage.myValue);
+
   useEffect(() => {
     console.log("Inside usEffect");
     fetchData();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [URL]);
 
   return (
     <>
-    <Hi />
-    <div className="card-ch">
-    <CommunityFilter className="filter" NameChangeFilter={filterChangeHandler} />
-    <div className="card-main">
-        {receive.map((data) => (
-          <div className="card-c">
-            <StaticCardUI
-              key={data.id}
-              image={data.img}
-              title={data.title}
-              link={data.link}
-              info={data.info}
-            />
-          </div>
-        ))}
+      <Hi />
+      <div className="card-ch">
+        <CommunityFilter
+          className="filter"
+          NameChangeFilter={filterChangeHandler}
+        />
+        <div className="card-main">
+          {receive.map((data) => (
+            <div className="card-c">
+              <StaticCardUI
+                key={data.id}
+                image={data.img}
+                title={data.title}
+                link={data.link}
+                info={data.info}
+              />
+            </div>
+          ))}
+        </div>
       </div>
-      </div>
-      </>
+    </>
   );
 };
 
