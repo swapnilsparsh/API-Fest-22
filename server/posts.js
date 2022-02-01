@@ -4,6 +4,7 @@ module.exports = [{
 "title": "Community Classroom",
 "info": "The organisation is founded by Kunal Kushwaha. This community provide hands-on training, information regarding  Open Source, and internships, jobs around the world.",
 "link": "https://www.commclassroom.org/",
+"platform": "discord",
 "rating": "4"
 },
 {
@@ -12,6 +13,7 @@ module.exports = [{
 "title": "Code for cause",
 "info": "An initiative to contribute to the Open Source community by providing training, guidance, and awareness about the possibilities in the field of software to students & professionals.",
 "link": "https://codeforcause.org/",
+"platform":"youtube",
 "rating": "2"
 },
 {
@@ -20,6 +22,7 @@ module.exports = [{
 "title": "codedamn",
 "info": "Build projects, practice and learn to code from scratch - without leaving your browser.",
 "link": "https://codedamn.com/",
+"platform":"discord",
 "rating": "3"
 },
 {"id":"4",
@@ -27,6 +30,7 @@ module.exports = [{
 "title": "Developer Student Clubs",
 "info": "Developer Student Clubs for students involved in Google Developer Technology are university-based community organizations.",
 "link": "https://developers.google.com/community/gdsc",
+"platform": "discord",
 "rating": "2"
 },
 {"id":"5",
@@ -41,6 +45,7 @@ module.exports = [{
 "title": "FOSS United Foundation",
 "info": "FOSS United Foundation is a registered non-profit founded in 2020, dedicated to the cause of building Free and Open Source (FOSS) projects and communities in India and elsewhere.",
 "link": "https://fossunited.org/",
+"platform": "telegram",
 "rating": "2"
 },
 {"id":"7",
@@ -111,6 +116,7 @@ module.exports = [{
 "title": "SAP Community Network",
 "info": "If you are a programmer who wants to get started with Business Coding, SAP Community Network is the right place for you! ",
 "link": "https://community.sap.com/",
+"platform":"youtube"
 "rating": "2"
 }
 ]
