@@ -38,6 +38,7 @@ module.exports = [{
 "title": "Girl Script",
 "info":  "GirlScript is open for all organisation. It supports diversity by reserving 50% seats for women & IGBT in all it's programs worldwide.",
 "link": "https://www.girlscript.tech/home",
+"platform":"linkedin"
 "rating": "2"
 },
 {"id":"6",
@@ -53,12 +54,14 @@ module.exports = [{
 "title": "Women who code",
 "info": "A community focused on empowering women in technology, established in 2011 and now has 230,000 members across 122 countries",
 "link": "https://www.womenwhocode.com/",
+"platform":"facebook",
 "rating": "2"
 },
 {"id":"8",
 "img": "https://img.etimg.com/photo/msid-64221161,quality-100/brandwire_image_45128030.jpg",
 "title": "TechGig",
 "info": "TechGig is a culmination of everything related to technology. TechGig is, a platform exclusively for IT professionals to synergize, share and exchange ideas.",
+"platform":"twitter",
 "link": "https://www.techgig.com/",
 "rating": "2"
 },
@@ -67,6 +70,7 @@ module.exports = [{
 "title": "Stack overflow",
 "info": "For developers to learn, share their expertise, and build their careers, Stack Overflow is the biggest, most trusted online community.",
 "link": "https://stackoverflow.com/",
+"platform":"website",
 "rating": "2"
 },
 {"id":"10",
@@ -74,6 +78,7 @@ module.exports = [{
 "title": "Hashnode",
 "info": "Hashnode enables developers from all over the world to connect and share ideas..",
 "link": "https://hashnode.com/",
+"platform":"website",
 "rating": "2"
 },
 {"id":"11",
@@ -81,6 +86,7 @@ module.exports = [{
 "title": "GitHub",
 "info": "On GitHub, programmers can share their code and collaborate on projects together. ",
 "link": "https://github.com/",
+"platform":"website",
 "rating": "2"
 },
 {"id":"12",
@@ -88,6 +94,7 @@ module.exports = [{
 "title": "Women Tech network",
 "info": "The WomenTech Network is a global forum to foster diversity in technology, leadership, and entrepreneurship, powered by Coding Children, Tech Family Projects, and Tallocate.",
 "link": "https://www.womentech.net/en-in",
+"platform":"website",
 "rating": "2"
 },
 {"id":"13",
@@ -95,6 +102,7 @@ module.exports = [{
 "title": "Rewriting The Code (RTC)",
 "info": "Founded by Sue Harnett, it is a community that aims to empower women in the field of technology through educational resources, mentorship, and industry experience.",
 "link": "https://rewritingthecode.org/",
+"platform":"website",
 "rating": "2"
 },
 {"id":"14",
@@ -102,6 +110,7 @@ module.exports = [{
 "title": "Coderwall",
 "info": "Another diverse and varied group that spans the whole spectrum of web creation is Coderwall. ",
 "link": "https://coderwall.com/",
+"platform":"website",
 "rating": "2"
 },
 {"id":"15",
@@ -109,6 +118,7 @@ module.exports = [{
 "title": "Kaggle",
 "info": "Kaggle is an online community of data scientists and machine learning practitioners having over 19,000 public datasets and 200,000 open notebooks.",
 "link": "https://www.kaggle.com/",
+"platform":"website",
 "rating": "2"
 },
 {"id":"16",
