@@ -86,8 +86,9 @@ module.exports=[{
     "info":"Food Network is an American basic cable channel owned by Television Food Network, G.P., a joint venture and general partnership between Discovery, Inc. and Nexstar Media Group. ",
     "link":"https://foodnetwork.com/",
     "rating":"4",
-    "platform":"Website"
-module.exports=[{
+    "platform":"Website"},
+    
+{
     "id":"0",
     "image":"https://nitrocdn.com/enRWBQfsbPPTeStgSQKbtHYPcuPDOirW/assets/static/optimized/rev-5898e00/wYiwMmE-qRT5aJ6c/w:234/h:234/q:74/https://cdn.aelieve.com/toptere/ImdbCom-Logo.png",
     "title":"IMDB",

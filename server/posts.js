@@ -38,7 +38,7 @@ module.exports = [{
 "title": "Girl Script",
 "info":  "GirlScript is open for all organisation. It supports diversity by reserving 50% seats for women & IGBT in all it's programs worldwide.",
 "link": "https://www.girlscript.tech/home",
-"platform":"linkedin"
+"platform":"linkedin",
 "rating": "2"
 },
 {"id":"6",
@@ -126,7 +126,7 @@ module.exports = [{
 "title": "SAP Community Network",
 "info": "If you are a programmer who wants to get started with Business Coding, SAP Community Network is the right place for you! ",
 "link": "https://community.sap.com/",
-"platform":"youtube"
+"platform":"youtube",
 "rating": "2"
 }
 ]
