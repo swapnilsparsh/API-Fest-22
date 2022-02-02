@@ -1,29 +1,22 @@
 const express = require('express')
 const app = express();
-// const morgan=require('morgan');
+const morgan=require('morgan');
 const cors=require('cors');
 const bodyParser = require("body-parser");
-const mongoose=require('mongoose')
-require('dotenv').config()
+const mongoose=require('mongoose');
 
 
-mongoose.connect('mongodb://127.0.0.1/apifestnew',{
+mongoose.connect('mongodb://127.0.0.1/apifest',{
     // useCreateIndex: true,
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
 
 mongoose.Promise=global.Promise;
-// app.use(morgan('dev'));
-app.use(cors());
-app.use(bodyParser.urlencoded({extended:false}));
-app.use(bodyParser.json());
 
 
 
-
-
-// app.use(morgan('dev'));
+app.use(morgan('dev'));
 app.use(cors());
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
@@ -39,14 +32,12 @@ const crypto = require('./crypto')
 const dance = require('./dance')
 const all=require('./all')
 const enter =require("./enter")
-const userRoute=require('./routes/userRoute')
-
-
 
 
 
 //signin and signup
-app.use('/posts/users',userRoute)
+app.use('/signUp', require('./router/signUp'));
+app.use('/signIn',require('./router/signIn'));
 
 app.get('/posts/all', (req,res) => {
     res.set('Access-Control-Allow-Origin', '*');

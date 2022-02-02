@@ -4,6 +4,7 @@ module.exports = [{
 "title": "Commaful",
 "info": "Access thousands of free stories in the largest library of multimedia stories around!",
 "link": "https://commaful.com/",
+"platform":"website",
 "rating": "3"
 },
 {
@@ -12,6 +13,7 @@ module.exports = [{
 "title": "Chronicles",
 "info": "The Chronicles is another writing forum, this time focusing specifically on science fiction and fantasy genres.",
 "link": "https://www.sffchronicles.com/",
+"platform":"website",
 "rating": "2"
 },
 {
@@ -20,6 +22,7 @@ module.exports = [{
 "title": "Delhi Poetry Slam",
 "info": "A club that not only provides you with a platform to pursue your passion, but also to develop it more professionally",
 "link": "https://www.delhipoetryslam.com/",
+"platform":"facebook",
 "rating": "3"
 },
 {
@@ -28,6 +31,7 @@ module.exports = [{
 "title": "Poetry Couture",
 "info": "Poetry Couture is a not-for-profit literary initiative with the objective of reviving the poetry reading culture.",
 "link": "https://www.facebook.com/poetcouture/",
+"platform":"facebook",
 "rating": "2"
 },
 {
@@ -36,6 +40,7 @@ module.exports = [{
 "title": "Poets Corner",
 "info": "Poets' Corner group comprises lots of creative and talented poets, rhapsodists and rhymesters.",
 "link": "https://www.thepoetscorner.org/",
+"platform":"website",
 "rating": "2"
 },
 {
@@ -44,6 +49,7 @@ module.exports = [{
 "title": "Delhi Poetree",
 "info": "Delhi Poetree is a community thats being run in a business-like fashion to promote poetry all across Delhi & NCR.",
 "link": "https://www.facebook.com/groups/delhipoetree/",
+"platform":"facebook",
 "rating": "2"
 },
 {
@@ -52,6 +58,7 @@ module.exports = [{
 "title": "TheNextBigWriter",
 "info": "TheNextBigWriter, launched in 2005, combines a dynamic community of thousands of writers with cutting-edge tools, contests and  classes.",
 "link": "https://www.thenextbigwriter.com/",
+"platform":"website",
 "rating": "2"
 },
 {
@@ -60,6 +67,7 @@ module.exports = [{
 "title": "Agent query",
 "info": "AgentQuery is a great place to go for critiques and feedback.",
 "link": "https://agentquery.com/default.aspx",
+"platform":"website",
 "rating": "2"
 },
 {
@@ -68,6 +76,7 @@ module.exports = [{
 "title": "Underlined",
 "info": "Welcome to our community of Book Nerds and aspiring writers! ",
 "link": "https://www.getunderlined.com/community/",
+"platform":"website",
 "rating": "2"
 },
 {
@@ -76,6 +85,7 @@ module.exports = [{
 "title": "NaNoWriMo",
 "info": "NaNoWriMo believes in the transformational power of creativity. ",
 "link": "https://nanowrimo.org/",
+"platform":"facebook",
 "rating": "2"
 },
 ]

@@ -4,6 +4,7 @@ module.exports = [{
 "title": "Aboriginal Islander Dance Theatre",
 "info": "Barani is an Aboriginal word of the Sydney language. It means yesterday. ",
 "link": "https://www.sydneybarani.com.au/whats-on-this-website/",
+"platform":"website",
 "rating": "3"
 },
 {
@@ -12,6 +13,7 @@ module.exports = [{
 "title": "International Dance Teachers Association",
 "info": "Training the next generation of passionate and expert dance teachers and their students",
 "link": "https://www.sffchronicles.com/",
+"platform":"website",
 "rating": "2"
 },
 {
@@ -20,6 +22,7 @@ module.exports = [{
 "title": "CDMT",
 "info": "CDMT ensures the provision of high quality professional training through Accreditation of full-time dance, drama and musical theatre schools",
 "link": "https://cdmt.org.uk/",
+"platform":"instagram",
 "rating": "3"
 },
 {
@@ -28,6 +31,7 @@ module.exports = [{
 "title": "The International Dance Council  CID",
 "info": "CID as an umbrella organization evolves on a different level from its members. It is not connected to any particular dance school, company, federation or other institution.",
 "link": "https://cid-world.org/",
+"platform":"website",
 "rating": "2"
 },
 {
@@ -36,6 +40,7 @@ module.exports = [{
 "title": "National Dance Education Organization",
 "info": "The National Dance Education Organization envisions a nation that affords every citizen equal access and opportunity to quality dance arts education regardless of gender, age, race or culture, socio-economic status, ability or interest.",
 "link": "https://www.ndeo.org/",
+"platform":"website",
 "rating": "2"
 },
 {
@@ -44,6 +49,7 @@ module.exports = [{
 "title": "Dance Wave",
 "info": "Dance Wave is an internet Radio station specialising in Dance category mainly Dance, House, Deep House, Trance and more electronic music.",
 "link": "https://dancewave.online/",
+"platform":"website",
 "rating": "2"
 },
 {
@@ -52,6 +58,7 @@ module.exports = [{
 "title": "Dance squad",
 "info" : "We are a passionate society where 'Every Day is Dance Day!,We hold weekly classes in Hip Hop, Contemporary, Jazz, and Commercial.",
 "link": "https://www.uea.su/opportunities/club/6931/",
+"platform":"website",
 "rating": "2"
 },
 {
@@ -60,6 +67,7 @@ module.exports = [{
 "title": "BBO",
 "info": "bbodance is an international dance awarding organisation previously known as the British Ballet Organization (BBO).",
 "link": "https://bbo.dance/",
+"platform":"website",
 "rating": "2"
 },
 {
@@ -68,6 +76,7 @@ module.exports = [{
 "title": "One Dance UK ",
 "info": "One Dance UK is the sector support organisation leading the way to a stronger, more vibrant and diverse dance sector.",
 "link": "https://www.onedanceuk.org/",
+"platform":"website",
 "rating": "2"
 },
 {
@@ -76,6 +85,7 @@ module.exports = [{
 "title": "Imperial Society of Teachers of Dancing",
 "info": "The Society is one of the world's leading dance examination boards with the widest range of dance genres available.  ",
 "link": "https://www.istd.org/home/",
+"platform":"website",
 "rating": "2"
 },
 ]
