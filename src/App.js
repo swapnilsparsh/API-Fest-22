@@ -5,7 +5,7 @@ import HomePage from "./components/Homepage";
 import Register from "./components/Register";
 import Login from "./components/Login";
 import "./styling/App.css";
-
+import Search from "./components/Search";
 
 
 const App = () => {

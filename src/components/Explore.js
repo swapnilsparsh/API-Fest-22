@@ -23,6 +23,7 @@ const Explore = () => {
   return (
     <div className="explore">
       <p className="explore-heading">
+        {" "}
         WANNA EXPLORE MORE? <br />
         WHY NOT{" "}
         <div className="tunein-button" onClick={clickHandler}>
@@ -49,7 +50,7 @@ const Explore = () => {
       </div>
       <div className="explore-cat" onClick={clickHandler}>
         <a className="explore-img" href="/explore" target="_blank">
-          <img className="explore-img5" src={invest} id="music" />
+          <img className="explore-img5" src={invest} id="sing" />
         </a>
         <a className="explore-img" href="/explore" target="_blank">
           <img className="explore-img6" src={enter} id="enter" />

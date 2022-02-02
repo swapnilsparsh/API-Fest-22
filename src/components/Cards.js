@@ -4,8 +4,12 @@ import Hi from "./Check";
 import CommunityFilter from "./CommunityFIlter";
 import "../styling/Cards.css";
 import { name } from "./Explore";
+import Search from "./Search";
 
 const Cards = () => {
+  const [searchTerm, setSearchTerm] = useState("");
+  const [searchResults, setSearchResults] = useState([]);
+
   if (localStorage.myValue === undefined) {
     localStorage.myValue = "all";
   }
@@ -15,7 +19,7 @@ const Cards = () => {
     setFilteredName(selectedName);
   };
 
-  const URL = `https://community-info-api.herokuapp.com/posts/${filteredName}`;
+  const URL = `http://localhost:3233/posts/${filteredName}`;
   const [receive, setReceive] = useState([]);
   const fetchData = () => {
     fetch(URL)
@@ -28,7 +32,29 @@ const Cards = () => {
       });
   };
 
-  console.log(sessionStorage.myValue);
+  const searchHandler = (searchTerm) => {
+    setSearchTerm(searchTerm);
+    if (searchTerm !== "") {
+      const newList = receive.filter((currentList) => {
+        return Object.values(currentList.title)
+          .join("")
+          .toLowerCase()
+          .includes(searchTerm.toLowerCase());
+      });
+      setSearchResults(newList);
+    } else {
+      setSearchResults(receive);
+    }
+  };
+
+  if (searchTerm.length < 1) {
+    // setReceive(receive);
+  } else {
+    console.log(searchResults);
+    //setReceive(searchResults);
+  }
+
+  //console.log(sessionStorage.myValue);
 
   useEffect(() => {
     console.log("Inside usEffect");
@@ -44,8 +70,9 @@ const Cards = () => {
           className="filter"
           NameChangeFilter={filterChangeHandler}
         />
+        <Search term={searchTerm} searchKeyword={searchHandler} />
         <div className="card-main">
-          {receive.map((data) => (
+          {(searchTerm.length ? searchResults : receive).map((data) => (
             <div className="card-c">
               <StaticCardUI
                 key={data.id}

@@ -1,6 +1,6 @@
 import React from "react";
 import StaticCardUI from "./StaticCardUI";
-import '../styling/Static.css'
+import "../styling/Static.css";
 
 const CommunityData = [
   {
@@ -56,50 +56,48 @@ const CommunityData = [
 const StaticCard = () => {
   return (
     <>
-    <p className="static_card_para" >Top Communities</p>
-    <div className="staticCard">
-      <div class="static-card-outside">
-        
-          <div class="static-card-inside">
+      <p className="static_card_para">Top Communities</p>
+      <div className="staticCard">
+        <div className="static-card-outside">
+          <div className="static-card-inside">
             <StaticCardUI
               image={CommunityData[0].img}
               title={CommunityData[0].title}
               info={CommunityData[0].info}
-          />
+            />
           </div>
-          
-          <div class="static-card-inside">
+
+          <div className="static-card-inside">
             <StaticCardUI
               image={CommunityData[1].img}
               title={CommunityData[1].title}
               info={CommunityData[1].info}
-          />
+            />
           </div>
-          <div class="static-card-inside">
+          <div className="static-card-inside">
             <StaticCardUI
               image={CommunityData[2].img}
               title={CommunityData[2].title}
               info={CommunityData[2].info}
             />
           </div>
-        
-        
-          <div class="static-card-inside">
+
+          <div className="static-card-inside">
             <StaticCardUI
               image={CommunityData[3].img}
               title={CommunityData[3].title}
               info={CommunityData[3].info}
             />
-            </div>
-          
-          <div class="static-card-inside">
+          </div>
+
+          <div className="static-card-inside">
             <StaticCardUI
               image={CommunityData[4].img}
               title={CommunityData[4].title}
               info={CommunityData[4].info}
             />
           </div>
-          <div class="static-card-inside">
+          <div className="static-card-inside">
             <StaticCardUI
               image={CommunityData[5].img}
               title={CommunityData[5].title}
@@ -108,7 +106,7 @@ const StaticCard = () => {
           </div>
         </div>
       </div>
-      </>
+    </>
   );
 };
 
