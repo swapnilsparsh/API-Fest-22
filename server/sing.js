@@ -4,7 +4,8 @@ module.exports=[{
     "title":" Music Launch Hub",
     "info":" If you’re someone who's genuinely looking to support others in the industry and build strong, meaningful, lasting connections, then sign up here, because you’ve found your tribe.",
     "link":"https://musiclaunchhub.com/",
-    "rating":"4"
+    "rating":"4",
+    "platform":"website"
 },
 {
     "id":"1",
@@ -12,7 +13,8 @@ module.exports=[{
     "title":"  Balanced Breakfast",
     "info":" Balanced Breakfast cab be your first introduction into how amazing the music community can be.",
     "link":"https://www.blncdbrkfst.com/",
-    "rating":"4"
+    "rating":"4",
+    "platform":"website"
 },
 {
     "id":"2",
@@ -20,7 +22,8 @@ module.exports=[{
     "title":" Kismet Thoughts",
     "info":" This is another new one that is  taking the community by storm.",
     "link":"http://www.kismetthoughts.com/",
-    "rating":"4"
+    "rating":"4",
+    "platform":"website"
 },
 {
     "id":"3",
@@ -28,7 +31,8 @@ module.exports=[{
     "title":"Music By Toronto Women",
     "info":" An incredible group of women led by Stacey Howchin.",
     "link":"https://www.womeninmusic.ca/",
-    "rating":"4"
+    "rating":"4",
+    "platform":"website"
 },
 {
     "id":"4",
@@ -36,7 +40,8 @@ module.exports=[{
     "title":"Rock/Star Collective",
     "info":" Founded by music industry mindset coach (and Flypaper author) Suzanne Paulinski, The Rock/Star Collective is a twist on most industry support groups.",
     "link":"https://www.facebook.com/therockstarcollective/",
-    "rating":"4"
+    "rating":"4",
+    "platform":"facebook"
 },
 {
     "id":"5",
@@ -44,7 +49,8 @@ module.exports=[{
     "title":"DIY Touring Group",
     "info":"The DIY Touring Group is an incredible resource for touring musicians.",
     "link":"https://www.facebook.com/groups/diytouringmusiciansnetwork/about/",
-    "rating":"4"
+    "rating":"4",
+    "platform":"facebook"
 },
 {
     "id":"6",
@@ -52,7 +58,8 @@ module.exports=[{
     "title":"A Promoter’s Life",
     "info":"Run by Mike Ziemer, A Promoter’s Life is another networking group aimed at providing an open space to ask questions, offer advice, and find support, no matter who you are. ",
     "link":"https://www.facebook.com/apromoterslife/",
-    "rating":"4"
+    "rating":"4",
+    "platform":"facebook"
 },
 {
     "id":"7",
@@ -60,7 +67,8 @@ module.exports=[{
     "title":"Indian Music Community",
     "info":"Through this page you can publish or watch any posted cover / original songs of yours or someone else's.",
     "link":"https://www.facebook.com/indianmusiccommunity/",
-    "rating":"4"
+    "rating":"4",
+    "platform":"facebook"
 },
 {
     "id":"8",
@@ -68,7 +76,8 @@ module.exports=[{
     "title":"Music Biz Besties",
     "info":"Through this page you can publish or watch any posted cover / original songs of yours or someone else's.",
     "link":"https://www.facebook.com/musicbizbesties/",
-    "rating":"4"
+    "rating":"4",
+    "platform":"facebook"
 },
 {
     "id":"9",
@@ -76,7 +85,8 @@ module.exports=[{
     "title":"Music Biz Besties",
     "info":"India's guide to contemporary music culture. Independently owned, for independent music. ",
     "link":"https://www.instagram.com/theindianmusicdiaries/?hl=en",
-    "rating":"4"
+    "rating":"4",
+    "platform":"Instagram"
 },
 {
     "id":"10",
@@ -84,5 +94,6 @@ module.exports=[{
     "title":"The Kennnedy Center",
     "info":"The music of India is as diverse as its many cultures. ",
     "link":"https://www.kennedy-center.org/education/resources-for-educators/classroom-resources/media-and-interactives/media/international/music-of-india/",
-    "rating":"4"
+    "rating":"4",
+    "platform":"website"
 },]
