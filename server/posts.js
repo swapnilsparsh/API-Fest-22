@@ -116,7 +116,7 @@ module.exports = [{
 "title": "SAP Community Network",
 "info": "If you are a programmer who wants to get started with Business Coding, SAP Community Network is the right place for you! ",
 "link": "https://community.sap.com/",
-"platform":"youtube"
+"platform":"youtube",
 "rating": "2"
 }
 ]
